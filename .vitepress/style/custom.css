@@ -1,0 +1,52 @@
+.center-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.th-align th {
+  text-align: center;
+}
+.td-align td {
+  text-align: center;
+}
+
+.VPHero .image-src {
+  top: 57%;
+  left: 50%;
+  max-width: 150%;
+  max-height: 400px;
+}
+
+/* Index.html Cobot Lineup background image */
+@media (min-width: 640px) {
+  .VPHero .image-src {
+    left: 50%;
+    max-width: 1000px;
+    max-height: 450px;
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-src {
+    top: 107%;
+    left: 5%;
+    max-width: 1300px;
+    max-height: 600px;
+  }
+
+  .VPHero .main .text {
+    min-width: 1000px;
+  }
+
+  .VPHome .VPFeatures {
+    padding: 144px 64px 0 64px;
+  }
+}

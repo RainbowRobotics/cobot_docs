@@ -1,0 +1,52 @@
+/* .examples-page .VPDoc .container {
+  display: flex;
+} */
+
+.examples-page .VPDoc .container .aside {
+  display: none;
+}
+/* .examples-page .VPDoc .container .content {
+  flex-grow: 1;
+} */
+
+.iframe-resources,
+.video-resources {
+  width: 100%;
+  height: 250px;
+}
+
+/* web ppt, study video youtube */
+@media (min-width: 640px) and (max-width: 1199.98px) {
+  .iframe-resources,
+  .video-resources {
+    width: 600px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .examples-page .VPDoc.has-aside .content-container {
+    max-width: 720px;
+  }
+
+  .iframe-resources,
+  .video-resources {
+    width: 720px;
+    height: 480px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .examples-page .VPDoc.has-aside .content-container {
+    max-width: 900px;
+  }
+
+  .iframe-resources {
+    width: 900px;
+    height: 550px;
+  }
+  .video-resources {
+    width: 720px;
+    height: 480px;
+  }
+}
