@@ -11,7 +11,7 @@ outline: deep
     <p class="custom-block-title">CAUTION</p>
     <ol>
         <li>
-            System updates should always be performed via USB connection.
+            System updates should always be performed via <span style="color:red"><b>USB connection</b></span>
         </li>
         <li>
         For more information on how to update the software, refer to the software update document.

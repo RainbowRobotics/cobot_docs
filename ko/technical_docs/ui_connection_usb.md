@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# USB 연결을 통한 UI 프로그램 운용 안내
+# USB 연결을 통한 Ui 프로그램 운용 안내
 
 ### 1. 소프트웨어를 최신으로 업데이트
 
@@ -11,7 +11,7 @@ outline: deep
     <p class="custom-block-title">주의</p>
     <ul>
         <li>
-            시스템 업데이트는 항상 <b>USB 연결</b>을 통해서 진행해야 합니다.
+            시스템 업데이트는 항상 <span style="color:red"><b>USB 연결</b></span>을 통해서 진행해야 합니다.
         </li>
         <li>
             자세한 소프트웨어 업데이트 방법은 소프트웨어 업데이트 문서를 참고하세요.
@@ -22,19 +22,22 @@ outline: deep
 (1) 소프트웨어 버전은 UI 버전 6.6.# 이상의 버전과 호환되는 버전을 사용해야 합니다. 소프트웨어 버전의 확인은 아래 그림에서 보이는 것과 같이 확인할 수 있습니다.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui1.png)
+<br>
 
 (2) UI 버전과 제어 박스의 버전이 맞지 않을 경우 다음과 같이 소프트웨어 업데이트 권장 팝업이 보입니다.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui2.png)
+<br>
 
 (3) 아래 그림과 같이 ‘Setup > System’으로 이동합니다.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui3.png)
+<br>
 
 (4) 소프트웨어 업데이트의 활성화를 누르고 업데이트를 진행합니다.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui4.png)
-
+<br>
 
 ### 2. USB 연결 설정 절차
 

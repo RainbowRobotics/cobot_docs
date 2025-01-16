@@ -11,7 +11,7 @@ outline: deep
     <p class="custom-block-title">주의</p>
     <ol>
         <li>
-            시스템 업데이트는 항상 USB 연결을 통해서 진행해야 합니다.
+            시스템 업데이트는 항상 <span style="color:red"><b>USB 연결</b></span>을 통해서 진행해야 합니다.
         </li>
         <li>
             자세한 소프트웨어 업데이트 방법은 소프트웨어 업데이트 문서를 참고하세요.

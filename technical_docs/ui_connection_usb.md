@@ -11,7 +11,7 @@ outline: deep
     <p class="custom-block-title">Caution</p>
     <ul>
         <li>
-            System updates must be performed through <b>USB connection</b>
+            System updates must be performed through <span style="color:red"><b>USB connection</b></span>
         </li>
         <li>
             For detailed software update methods, please refer to the software update document.
@@ -22,19 +22,22 @@ outline: deep
 (1) The software version must be compatible with UI version 6.6.# or higher. You can check the software version as shown in the picture below.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui1.png)
+<br>
 
 (2)	If the UI version and the control box software version do not match, a software update recommendation pop-up appears as shown below.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui2.png)
+<br>
 
 (3)	Go to ‘Setup > System’ as shown below.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui3.png)
+<br>
 
 (4)	Click ‘Activate Software Update’ and proceed with the update.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui4.png)
-
+<br>
 
 ### 2. USB Connection Setup Procedure
 
@@ -69,6 +72,7 @@ outline: deep
 (1)	Activate the developer options menu in the settings of your Android OS tablet.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui5.png)
+<br>
 
 (2)	Select MIDI in ‘Settings > Developer Options > Default USB Configuration’.
 
@@ -80,16 +84,19 @@ outline: deep
 (3)	Enable USB Debugging.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui8.png)
+<br>
 
 (4)	Connect the tablet and control box with a USB A to C cable.
 
 (5)	Select ‘Allow’ in the ‘Allow access to tablet data’ message.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui9.png)
+<br>
 
 (6)	When connecting the tablet and control box for the first time, check ‘Always allow on this computer’ in the ‘Allow USB Debugging?’ message and then select ‘Allow’.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui10.png)
+<br>
 
 (7)	Remove the USB A to C cable from the tablet and reconnect it.
 
@@ -99,17 +106,21 @@ outline: deep
     )</p>
 
 ![missing](/technical_docs/common/ui_connection_usb/ui11.png)
+<br>
 
 (9)	Set the mode of tablet connection settings to ‘USB connection’.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui12.png)
+<br>
 
 (10) After confirming that the control box is not in the Please Wait state, press the connection button to connect the control box and UI.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui13.png)
+<br>
 
 (11) If (10) fails, terminate the UI process and repeat steps (7) to (10).
 
 (12) Confirm that it is properly connected to the control box. If the UI version and control box version are different, a related notification message will appear. There is no problem with use.
 
 ![missing](/technical_docs/common/ui_connection_usb/ui14.png)
+<br>

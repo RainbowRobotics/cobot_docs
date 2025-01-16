@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# Operating UI Program Through Wifi Connection
+# Operating UI Program Through Wi-Fi Connection
 
 ### 1. Software Update
 
@@ -11,7 +11,7 @@ outline: deep
     <p class="custom-block-title">Caution</p>
     <ul>
         <li>
-            System updates must be performed through <b>USB connection</b>
+            System updates must be performed through <span style="color:red"><b>USB connection</b></span>
         </li>
         <li>
             For detailed software update methods, please refer to the software update document.
@@ -20,18 +20,22 @@ outline: deep
 </div>
 
 (1) The software version must be compatible with UI version 6.6.# or higher. You can check the software version as shown in the picture below.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui1.png)
 <br>
 
 (2)	If the UI version and the control box software version do not match, a software update recommendation pop-up appears as shown below.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui2.png)
 <br>
 
 (3)	Go to ‘Setup > System’ as shown below.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui3.png)
 <br>
 
 (4)	Click ‘Activate Software Update’ and proceed with the update.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui4.png)
 <br>
 
@@ -78,56 +82,66 @@ outline: deep
 
 
 
-### 2.1 IP Address Setting (Android OS Tablet UI)
+#### 2.1 IP Address Setting (Android OS Tablet UI)
 
 - We recommend using the router and robot 1:1.
 
 (1)	Connect the router directly to the control box as shown below. (recommended)
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui5.png)
 <br>
 
 (2)	Connect the tablet to the Wi-Fi of the router.<br>(In this document, the router generates Wi-Fi named RB_SW_Team)
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui6.png)
 <br>
 
 (3)	Press ‘Always connect’ for the message below. 
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui7.png)
 <br>
 
 (4)	Click the icons marked with a red box in the image below to check the Wi-Fi IP band.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui8.png)
 <br>
 
 (5)	In the example below, you can see that the router has assigned 192.168.0.4 as the address to the tablet. This means that address 4 has been assigned in the 192.168.0 band.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui9.png)
 
 ![missing](/technical_docs/common/ui_connection_wifi/ui10.png)
 <br>
 
 (6)	Connect the control box and tablet with a USB cable and go to ‘Setup > Socket/Serial’.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui11.png)
 <br>
 
-(7)	Modify IP/Netmask/Gateway to match the band and the netmask of the router. Set the IP address of the control box to an IP address in the same band except address 4. (In this case, the tablet is assigned address 4). The gateway uses address 1 in the same IP band. 
-In this example, the ping test can be attempted by entering the tablet’s IP address. After few seconds, a test result pop-up will appear.
+(7)	Modify IP/Netmask/Gateway to match the band and the netmask of the router. <br> Set the IP address of the control box to an IP address in the same band except address 4. (In this case, the tablet is assigned address 4).<br>The gateway uses address 1 in the same IP band. 
+In this example, the ping test can be attempted by entering the tablet’s IP address.<br> After few seconds, a test result pop-up will appear.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui12.png)
 <br>
 
-### 2.2 IP Address Setting (Windows OS PC UI)
+#### 2.2 IP Address Setting (Windows OS PC UI)
 
 - Direct connection between PC and control box is used as an example.
 
 (1)	Connect the router directly to the control box as shown below. (recommended)
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui13.png)
 <br>
 
 (2)	Connect the PC to the Wi-Fi of the router. Press ‘Properties’.
+
 <br>(In this document, the router generates Wi-Fi named RB_SW_Team)
 ![missing](/technical_docs/common/ui_connection_wifi/ui14.png)
 <br>
 
 (3)	When the settings window opens, scroll down to the bottom and check the IPv4 address. 
 <br>(In this case, confirm that address 5 in the 192.168.0 band has been assigned to the PC)
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui15.png)
 <br>
 
@@ -137,6 +151,7 @@ In this example, the ping test can be attempted by entering the tablet’s IP ad
 
 (5)	Modify IP/Netmask/Gateway to match the band and the netmask of the router. Set the IP address of the control box to an IP address in the same band except address 5. (In this case, the PC is assigned address 5). The gateway uses address 1 in the same IP band. 
 <br>In this example, the ping test can be attempted by entering the tablet’s IP address. After few seconds, a test result pop-up will appear.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui17.png)
 <br>
 
@@ -148,14 +163,17 @@ In this example, the ping test can be attempted by entering the tablet’s IP ad
     )</p>
 
 (2)	Select ‘TCP/IP Connection’ in tablet connection setting mode.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui18.png)
 <br>
 
 (3)	Enter the IP address of the control box set previously and click connect.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui19.png)
 <br>
 
 (4)	Confirm that it is properly connected to the control box. If the UI version and control box version are different, a related notification message will appear. There is no problem with use.
+
 ![missing](/technical_docs/common/ui_connection_wifi/ui20.png)
 <br>
 
