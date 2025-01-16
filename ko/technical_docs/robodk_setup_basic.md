@@ -26,8 +26,10 @@ RoboDK 웹 사이트에 접속합니다. (https://robodk.com)<br>
 #### 4. 사용하고자 하는 로봇 모델 다운로드 및 불러오기
 
 ![missing](/technical_docs/common/robodk_setup_basic/4-1.png)<br>
-![missing](/technical_docs/common/robodk_setup_basic/4-2.png)<br>
-![missing](/technical_docs/common/robodk_setup_basic/4-3.png)<br>
+(Rainbow 검색)
+![missing](/technical_docs/common/robodk_setup_basic/new0.png)
+
+![missing](/technical_docs/common/robodk_setup_basic/new1.png)
 ![missing](/technical_docs/common/robodk_setup_basic/4-4.png)
 ![missing](/technical_docs/common/robodk_setup_basic/4-5.png)
 
