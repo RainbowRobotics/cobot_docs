@@ -200,6 +200,8 @@ const technicalDocsSidebarList: object[] = [
     collapsed: false,
     items: [
       { text: "Android Tablet Settings", link: "/technical_docs/android_tablet_setting" },
+      { text: "Ui Connection (USB)", link: "/technical_docs/ui_connection_usb" },
+      { text: "Ui Connection (Wifi)", link: "/technical_docs/ui_connection_wifi" },
       { text: "TCP/Wireless Ui connection", link: "/technical_docs/tcp_wireless" },
       { text: "Ui Customizing", link: "/technical_docs/ui_customizing" },
       { text: "Import user Env-Modeling file", link: "/technical_docs/user_base_modeling" },

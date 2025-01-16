@@ -193,6 +193,8 @@ const technicalDocsSidebarList: object[] = [
     collapsed: false,
     items: [
       { text: "안드로이드 태블릿 설정", link: "/ko/technical_docs/android_tablet_setting" },
+      { text: "Ui 연결 (USB)", link: "/ko/technical_docs/ui_connection_usb" },
+      { text: "Ui 연결 (Wifi)", link: "/ko/technical_docs/ui_connection_wifi" },
       { text: "TCP/무선 Ui 연결", link: "/ko/technical_docs/tcp_wireless" },
       { text: "Ui 커스터마이징", link: "/ko/technical_docs/ui_customizing" },
       { text: "사용자 환경 모델링 파일 넣기", link: "/ko/technical_docs/user_base_modeling" },
