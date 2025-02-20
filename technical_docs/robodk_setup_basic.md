@@ -30,7 +30,6 @@ Install RoboDK through the downloaded RoboDK installation file and run RoboDK.
 ![missing](/technical_docs/common/robodk_setup_basic/new0.png)
 
 ![missing](/technical_docs/common/robodk_setup_basic/new1.png)
-
 ![missing](/technical_docs/common/robodk_setup_basic/4-4.png)
 ![missing](/technical_docs/common/robodk_setup_basic/4-5.png)
 

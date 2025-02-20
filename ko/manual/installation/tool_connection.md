@@ -22,7 +22,7 @@ M6 볼트 4 개를 이용하여 툴 플랜지에 툴을 고정합니다(규격: 
 - I/O connector A : Sam Woo Electronics/M12 x P0.5 female circular connector, 12pin/SW-10W-12(P)
 
 <div class="center-align th-align td-align">
-  <table>
+  <table style='width:900px;table-layout:fixed;word-break:break-all;height:auto'>
     <tr>
       <th>포트</th>
       <th>레이아웃<br>(로봇 측)</th>
@@ -131,7 +131,7 @@ M6 볼트 4 개를 이용하여 툴 플랜지에 툴을 고정합니다(규격: 
 - I/O connector B : Binder / M8 female panel mount connector, 8pin / 76 6618 1111 00008-0200
 
 <div class="center-align th-align td-align">
-  <table>
+  <table style='width:750px;table-layout:fixed;word-break:break-all;height:auto'>
     <tr>
       <th>포트</th>
       <th>레이아웃<br>(로봇 측)</th>

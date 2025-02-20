@@ -13,7 +13,7 @@ outline: deep
 - RB16-900E Series는 900mm
 - RB3-730ES Series는 730mm
 - RB6-920ES Series는 920mm
-- RB20-1900ES Series는 1900mm
+- RB20-1900ES Series는 1900mm  
 
 입니다. 로봇 베이스 바로 아래 또는 바로 윗부분(아래 그림의 A 영역과 그 주변)은 제한된 작업 영역입니다.<br>
 관절 좌표계를 사용하는 동작(예: Move J)에서는 문제가 없지만, 관성 좌표계를 사용하는 동작(예: Move L)에서는 이 영역을 통과하는 것은 제한됩니다.<br>

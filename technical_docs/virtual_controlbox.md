@@ -3,80 +3,105 @@ layout: doc
 outline: deep
 ---
 
-# Virtual Control Box Installation v1.5
+# Virtual Control Box Installation v7.2
 
-### 1. Installing the Virtual-Box program on user PC
+## 1. Installing the VirtualBox Platform
 
-Click the Windows hosts button from the following link (https://www.virtualbox.org/wiki/Downloads) to download the installation file.<br>
-In order to operate the virtual robot control box program, a virtual Linux system is required, so the above program is required to install.
+**Installing VirtualBox on the User’s PC**
 
-![missing](/technical_docs/common/virtual_box/1-1.png)
+(1)	Click the Window hosts button from the following link (https://www.virtualbox.org/wiki/Downloads) to downloads the installation file. In order to operate the virtual robot control box program, a virtual Linux system is required, so the above program is required to install.
 
-Install this program through the Next/Yes button without any additional settings.
+![missing](/technical_docs/common/virtual_box_7.2/1-1.png)
 
-![missing](/technical_docs/common/virtual_box/1-2.png)
+(2)	Install this program through the Next/Yes button without any additional setting. 
 
-When the installation is complete, run the program.
+![missing](/technical_docs/common/virtual_box_7.2/1-2.png)
 
-### 2. Install and Run the simulator program through Virtual-Box
+(3)	When this installation is complete, run the program. 
 
-**Tool → Network**
+## 2. Installing and Running the Simulator Program
 
-![missing](/technical_docs/common/virtual_box/2-1.png)
+**Running the Simulator via VirtualBox**
 
-Set the network address as follows.<br>
-IP address <u>**_should be ‘10.0.2.1’_**</u><br>
-After writing, ‘Apply’ button should be clicked.
+(1)	Navigate to **Tools->Network** Setting. 
 
-![missing](/technical_docs/common/virtual_box/2-2.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-3.png)
 
-**File → Import Virtual System**
+(2)	Go to Tools → Network, then navigate to the Adapter section and set the network address as follows. For example, enter '_10.0.2.100_'.
+If you are already using an IP address in the _10.0.2.100_ range, you can assign a different IP address that does not overlap.
+After entering the IP address, click the "OK" button to confirm.
 
-![missing](/technical_docs/common/virtual_box/2-3.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-4.png)
 
-Decompress (un-zip) the distributed compressed file in advance.<br>
-Select the attached RBVirtualSimulator.ova and click ‘Next’.
+(3)	Visit the official Rainbow Robotics website and navigate to Tech Support → Cobot Resources.
 
-![missing](/technical_docs/common/virtual_box/2-4.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-5.png)
 
-Click ‘Import’ to finalize the setup.
+(4)	Click on the "Download" tab at the top of the Rainbow Robotics Cobot Technical Documents page.
 
-![missing](/technical_docs/common/virtual_box/2-5.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-6.png)
 
-After setting, RBVirtualSimulator is added to the left side of the program.<br>
-Double-click on it to launch the virtual robot control box.
+(5)	When you click on the "Download" tab, a new OneDrive page will open.
+Navigate to the [4_Other_Resource] folder, as shown in the attached image.
 
-![missing](/technical_docs/common/virtual_box/2-6.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-7.png)
 
-If the following error occurs during execution, click the <u>Change Network Settings</u> button.
+(6)	Navigate to [4_Other_Resource] → [4.6_Window_Simulator_OVA] and download the latest version of the simulator.
 
-![missing](/technical_docs/common/virtual_box/2-7.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-8.png)
 
-In Adapter 1 tab window, set the connection point to ‘Host-only adapter’ and ‘VirtualBox-Host-Only Ethernet Adapter’ as the name.
+(7)	Return to VirtualBox, then go to File → Import Appliance.
 
-![missing](/technical_docs/common/virtual_box/2-8.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-9.png)
 
-After completing the previous settings, if you run RBVirtualSimulator again, you can see that the virtual-robot-control-box boots normally.<br>
-Wait until the message **\* daemon started successfully** appears in the console window as shown in the screen below.
+(8)	Import the RBVirtualSimulator.ova file that was downloaded in step (6).
 
-![missing](/technical_docs/common/virtual_box/2-9.png)
+![missing](/technical_docs/common/virtual_box_7.2/1-10.png)
 
-### 3. Launch and connect the Rainbow-RB Window UI program
+(9)	In the settings section at the bottom, verify that the configurations match the reference image. Then, click "Finish" to complete the process.
 
-Run Rainbow-Robotics Window UI program (Rainbow-RB.exe).
+![missing](/technical_docs/common/virtual_box_7.2/1-11.png)
 
-![missing](/technical_docs/common/virtual_box/3-1.png)
+(10) Once the virtual system has been successfully added on the right side, the RBVirtualSimulator will be registered on the left side. 
 
-Enter to ‘Make Page’.<br>
-Click the ‘Network’ button (![missing](/technical_docs/common/tcp_wireless/4-1.png)).<br>
-In the tablet connection settings, set the mode to ‘TCP/IP’, and enter 10.0.2.7 as the IP address.
+![missing](/technical_docs/common/virtual_box_7.2/1-12.png)
 
-![missing](/technical_docs/common/virtual_box/3-2.png)
+(11) If an error occurs during execution, click the "Change Network Settings" button.
 
-If UI program is connected with virtual box, the network status icon becomes green.
+![missing](/technical_docs/common/virtual_box_7.2/1-13.png)
 
-![missing](/technical_docs/common/virtual_box/3-3.png)
+(12) Click on RBVirtualSimulator on the left side, then click "Settings" at the top. Navigate to the "Network" section. For Adapter 1, set "Attached to:" as "Host-Only Adapter". In the "Name:" field, select "VirtualBox Host-Only Ethernet Adapter". Finally, click "OK" to save the settings.
 
-Through the simulation mode, user can simulate the robot.
+![missing](/technical_docs/common/virtual_box_7.2/1-14.png)
 
-![missing](/technical_docs/common/virtual_box/3-4.png)
+(13) After completing the settings, restart RBVirtualSimulator.
+You should see the virtual control box booting up successfully. Wait until the message " **\*daemon started successfully"** appears on the screen.
+
+![missing](/technical_docs/common/virtual_box_7.2/1-15.png)
+
+## 3. Running and Connecting RB Virtual Control Box – RB WindowUI
+
+**Running and Connecting RB Virtual Control Box – RB Window UI Program**
+
+(1)	From the RB Technical Documents OneDrive, locate the downloaded RB_window_###(version) file and run RB_window.exe.
+
+<p style="display:flex; align-items:center; white-space:pre">
+    (2)	aunch the RB Window UI and click the "Network ( 
+    <img src="/technical_docs/common/virtual_box_7.2/3-16.png"/>
+    )button.</p> 
+In the Tablet Connection Settings, set the Mode to TCP/IP Connection and enter the IP address as 10.0.2.7. (Since the VirtualBox IP range is 10.0.2.100, we use 10.0.2.7. You can adjust this address according to the IP range you have set.)
+
+![missing](/technical_docs/common/virtual_box_7.2/3-17.png)
+
+(3)	If the connection is successful, a green light will appear next to "Network Connected."
+
+![missing](/technical_docs/common/virtual_box_7.2/3-18.png)
+
+(4)	In simulation mode, you can test the desired robot poses.<br>
+(Since this is a virtual control box, the Real Robot mode is not available.)
+
+![missing](/technical_docs/common/virtual_box_7.2/3-19.png)
+
+(5)	If the RB Window UI fails to connect to the virtual control box, check the static IP address assigned to the "VirtualBox-Host-Only Ethernet Adapter" on your personal PC.
+
+![missing](/technical_docs/common/virtual_box_7.2/3-20.png)

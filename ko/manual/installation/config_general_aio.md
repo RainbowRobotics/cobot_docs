@@ -88,7 +88,7 @@ outline: deep
    재생(<img src="/manual/common/installation/10-6.png" />) 또는
    정지(<img src="/manual/common/installation/10-7.png" />) 상태,
    충돌(<img src="/manual/common/installation/10-8.png" />) 또는
-   안전(<img src="/manual/common/installation/10-9.png" />)</span><br>
-   상태를 나타냅니다.
+   안전(<img src="/manual/common/installation/10-9.png" />)</span> 
+   상태를 나타냅니다.<br>
 4. 전력 사용량: 와트(W) 단위의 총 전력 사용량을 나타냅니다.
 5. 시스템 버전 정보: 시스템 버전 정보입니다.

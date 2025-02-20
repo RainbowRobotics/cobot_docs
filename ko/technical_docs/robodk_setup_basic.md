@@ -42,7 +42,7 @@ RoboDK 웹 사이트에 접속합니다. (https://robodk.com)<br>
 
 #### 6. 배경 3D 파일의 위치 및 방향 맞추기
 
-배경 (frame)을 더블클릭하여, X, Y, Z, Rx, Ry, Rz를 조정하여, 작업환경 3D 파일의 위치와 회전을 조정합니다.
+배경(frame)을 더블 클릭합니다. 작업 공간 3D 파일의 위치와 회전을 조정하려면 X, Y, Z, Rx, Ry, Rz를 변경합니다.
 
 ![missing](/technical_docs/common/robodk_setup_basic/6-1.png)
 ![missing](/technical_docs/common/robodk_setup_basic/6-2.png)
