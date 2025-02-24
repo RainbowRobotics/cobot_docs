@@ -28,12 +28,12 @@ outline: deep
 
 ![missing](/technical_docs/common/virtual_box_7.2/1-3.png)
 
-(2)	도구(Tool) -> 네트워크(Network) 하단 어댑터(Adaper)에 네트워크 주소를  다음과 같이 설정합니다. 예를 들어 ‘_10.0.2.100_’을 입력합니다. 
+(2)	도구(Tool) -> 네트워크(Network) 하단 어댑터(Adaper)에 네트워크 주소를 다음과 같이 설정합니다. 예를 들어 ‘_10.0.2.100_’을 입력합니다. 
 만약 _10.0.2.100_ 대역대의 IP 주소를 사용 하고 계신다면 겹치지 않은 다른 대역대의 IP를 설정 해주셔도 무방합니다. 작성 이후 하단의 ‘OK’ (확인)  버튼을 눌러야 합니다.
  
 ![missing](/technical_docs/common/virtual_box_7.2/1-4.png)
 
-(3)	RainbowRobotics공식홈페이지에서 기술지원-> 협동로봇 기술자료를 클릭합니다. 
+(3)	RainbowRobotics 공식홈페이지에서 __기술지원-> 협동로봇__ 기술자료를 클릭합니다. 
 
 ![missing](/technical_docs/common/virtual_box_7.2/1-5.png)
 
@@ -88,7 +88,7 @@ outline: deep
 <p style="display:flex; align-items:center; white-space:pre">
     (2)	RB Window UI 실행 후 네트워크 ( 
     <img src="/technical_docs/common/virtual_box_7.2/3-16.png"/>
-    )버튼튼을 클릭합니다.</p> 
+    )버튼을 클릭합니다.</p> 
 태블릿 연결 설정에서 모드는 TCP/IP 연결로 설정하고, IP 주소는 10.0.2.7을 입력합니다. 
 (버추얼박스의 IP 대역대가 10.0.2.100 이기 때문에 10.0.2.7을 넣어주었습니다. 이 부분은 사용자가 넣어주신 대역대를 맞춰서 기입하시면 됩니다.)
 
