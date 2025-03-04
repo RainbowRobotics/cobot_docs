@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Rainbow Robotics"
   text: "협동로봇 기술자료"
-  tagline: We make cobot RB Series with core tech and componenets that developed ourselves!
+  tagline: We make cobot RB Series with core tech and components that developed ourselves!
   image:
     src: ../bg_index.png
     alt: Cobot Lineup
