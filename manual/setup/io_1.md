@@ -9,7 +9,7 @@ Here is where you can configure the functions of the GPIO ports on the control b
 
 ### 1. Control Box Digital Input Function Definition
 
-![missing](/manual/en/setup/7-1.png)
+![missing](/manual/en/setup/io1.png)
 
 1. Select the input port for which you want to change the function.
 2. - **R** : The function applied to the selected digital input port is activated when the digital input pulse is at the Rising Edge.<br>
@@ -20,7 +20,7 @@ Here is where you can configure the functions of the GPIO ports on the control b
 
 ### 2. Control Box Digital Output Function Definition
 
-![missing](/manual/en/setup/7-2.png)
+![missing](/manual/en/setup/io2.png)
 
 4. Select the output port for which you want to change the function.
 5. - **R** : The function applied to the selected digital output port is activated when the digital output pulse is at the Rising Edge.<br>
@@ -31,14 +31,14 @@ Here is where you can configure the functions of the GPIO ports on the control b
 
 ### 3. Control Box Input Labels
 
-![missing](/manual/en/setup/7-3.png)
+![missing](/manual/en/setup/io3.png)
 
 7. Enter the desired name.
 8. Select the input port for which you want to set the name.
 
 ### 4. Control Box Output Labels
 
-![missing](/manual/en/setup/7-4.png)
+![missing](/manual/en/setup/io4.png)
 
 9. Enter the desired name.
 10. Select the output port for which you want to set the name.
@@ -48,7 +48,7 @@ Here is where you can configure the functions of the GPIO ports on the control b
 The functions of the input ports (Din 0 to Din 15) in the control box can be set to the following special functions (R = Rising Edge, F = Falling Edge, H = High State).
 
 <div class="warning custom-block">
-    <p class="custom-block-title">Caution</p>
+    <p class="custom-block-title"> Caution</p>
     <ul>
         <li>
             Before using Digital Input, be sure to fully understand the electrical characteristics of the digital input port provided by the manufacturer.
@@ -122,7 +122,7 @@ The functions of the output ports (Dout 0 to Dout 15) of the control box can be 
 Output ports set to special features are not available for general use in teaching programs.
 
 <div class="warning custom-block">
-    <p class="custom-block-title">Caution</p>
+    <p class="custom-block-title">📌 Caution</p>
     <ul>
         <li>
             Before using the digital output, be sure to fully understand the electrical characteristics of the digital output port provided by the manufacturer.

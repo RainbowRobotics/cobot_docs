@@ -9,7 +9,7 @@ outline: deep
 
 ### 1. 일반 설정
 
-![missing](/manual/ko/setup/10-1.png)
+![missing](/manual/ko/setup/interface1.png)
 
 1. Play 화면에서 반복할 횟수를 입력합니다.
 2. Make 화면에서 안전 슬라이더 기능을 사용할지 선택합니다.<br>
@@ -29,31 +29,32 @@ outline: deep
 ### 2. 핸드컨트롤러 버튼 기능
 
 <div class="warning custom-block">
-    <p class="custom-block-title">주의</p>
+    <p class="custom-block-title"> 주의</p>
     <ul>
         <li>
-            안전상의 이유로 핸드 컨트롤러 장착 상태는 가급적 Mounted(connected)로 사용하시기 바랍니다. 
+            안전상의 이유로 핸드 컨트롤러 장착 상태는 가급적 <span style="color:red">Mounted(connected)</span>로 사용하시기 바랍니다. 
         </li>
     </ul>
 </div>
 
-![missing](/manual/ko/setup/10-2.png)
+![missing](/manual/ko/setup/interface2.png)
 
 13. 비상 정지 버튼 하단의 부가 기능 버튼의 설정 값을 확인할 수 있습니다.<br>
     부가 기능 버튼을 누르면, 각 버튼에 해당하는 번호에 불이 들어옵니다. 이를 통해 UI에서 정상 작동하는지 확인할 수 있습니다.
-14. - **버튼 기능 변경** : 각 버튼에 기능을 설정할 수 있습니다.
-    - **핸드 컨트롤러 장착 상태** : 로봇 팔 활성화시 핸드 컨트롤러를 연결하여 사용할지 연결하지 않고 사용할지 설정할 수 있습니다.
+14.  - **버튼 기능 변경** : 각 버튼에 기능을 설정할 수 있습니다.<br>
+     - **핸드 컨트롤러 장착 상태** : 로봇 팔 활성화시 핸드 컨트롤러를 연결하여 사용할지 연결하지 않고 사용할지 설정할 수 있습니다.
 
-### 3. EtherNet/IP, ProfiNet, OPC-UA
+### 3. EtherNet/IP, ProfiNet, OPC-UA, REST API
 
-![missing](/manual/ko/setup/10-3.png)
+![missing](/manual/ko/setup/interface3.png)
 
 15. Ethernet/IP Adapter 기능을 On/Off 할 수 있으며, 현재 상태에 대한 확인이 가능합니다.
 16. ProfiNet Device 기능을 On/Off 할 수 있으며, 현재 상태에 대한 확인이 가능합니다.
 17. OPC-UA Server 기능을 On/Off 할 수 있습니다.
+18. REST API Server 기능을 On/Off 할 수 있습니다.
 
 ### 4. OnRobot Box
 
-![missing](/manual/ko/setup/10-4.png)
+![missing](/manual/ko/setup/interface4.png)
 
 18. On-Robot Box에 설정하기 위한 IP를 설정합니다.

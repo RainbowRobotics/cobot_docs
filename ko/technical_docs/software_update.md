@@ -50,7 +50,7 @@ This is the same installation file as a regular Android application. Therefore, 
   :::
 
 <div style="padding: 8px 8px 8px 16px; background-color: rgba(0, 0, 255, 0.1); border-radius: 8px;">
-  <p>Copy the distributed APK file into Table → APK install</p>
+  <p>Copy the distributed APK file into Tablet → APK install</p>
 </div>
 
 <br>

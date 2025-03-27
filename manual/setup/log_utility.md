@@ -3,7 +3,31 @@ layout: doc
 outline: deep
 ---
 
-# Set-up (Utility)
+# Set-up (Log/Utility)
+
+### 1. Log
+You can check the system log status of the robot arm.
+
+![missing](/manual/en/setup/l1.png)
+
+1. - Import the LOG file from the control box to the tablet PC.<br>
+   - Load the LOG file that was imported from the control box to the tablet PC for output.<br>
+2. - All : Output all logs.<br>
+   - Output only the informational logs.<br>
+   - Output only the warning logs.<br>
+   - Output only the error logs.<br>
+   - Output only the system-related logs.<br>
+   - Output only the logs related to errors that are directly associated with a failure of  the robot.<br>
+   - Output only the logs related to the logs specified by the user.<br>
+   - Send the logs to Rainbow Robotics' customer support email account. Wi-Fi must be connected for this action.<br>
+3. - Backup internal files of the control box: Backup the files stored in the control box to the tablet PC.<br>
+   - Operating time of the robot arm: Output the time the robot arm has been operated.<br>
+   - Copy control box settings: Copy the settings of the control box.<br>
+   - Restore control box settings: Restore the previous settings of the control box.
+4. - Control box time zone: Displays the time zone currently recognized by the control box.<br>
+   - System Ver. : Output the current UI version being used by the control box.
+
+### 2. Utility
 
 Provides features regarding the robot's packaging and emergency recovery.
 
@@ -19,7 +43,7 @@ Provides features regarding the robot's packaging and emergency recovery.
     </ol>
 </div>
 
-![missing](/manual/en/setup/5.png)
+![missing](/manual/en/setup/l2.png)
 
 1. You can create the position for packaging the robot.<br>
    Before using this function, ensure that the robot arm is activated.<br>

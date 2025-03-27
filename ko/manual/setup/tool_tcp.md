@@ -5,9 +5,11 @@ outline: deep
 
 # Set-up (Tool/TCP)
 
+### 1. Default Tool
+
 설치된 툴에 관한 설정을 할 수 있습니다.
 
-![missing](/manual/ko/setup/3.png)
+![missing](/manual/ko/setup/tool1.png)
 
 1. 로봇 모델 별 로봇 팔 말단 중심(Tool Center Point, TCP) 좌표계를 나타냅니다.<br>
    해당 좌표계를 기준으로 우측의 수치를 입력합니다.
@@ -17,3 +19,15 @@ outline: deep
 3. TCP 좌표계를 설정합니다. 선형 위치(X, Y, Z)와 회전각도(RX, RY, RZ)를 설정할 수 있습니다.
 4. TCP 좌표계를 기준으로 툴 영역의 범위를 설정합니다. 해당 범위 안은 자가충돌영역으로 처리됩니다.
 5. 변경된 세팅을 저장합니다.
+
+### 2. Tool List
+
+5개의 Tool 값(TCP, CoG, payload)을 저장할 수 있습니다. 
+
+![missing](/manual/ko/setup/tool2.png)
+
+### 3. 추가 링크 하중
+
+Shoulder와 Elbow에 용접기 피더 등 추가적인 장치를 달 수 있습니다. 
+
+![missing](/manual/ko/setup/tool3.png)

@@ -5,9 +5,11 @@ outline: deep
 
 # Set-up (Tool/TCP)
 
+### 1. Default Tool
+
 You can configure the settings related to the installed tool.
 
-![missing](/manual/en/setup/3.png)
+![missing](/manual/en/setup/t1.png)
 
 1. The Tool Center Point (TCP) coordinate system for each robot model is displayed.<br>
    Enter the values on the right based on this coordinate system.
@@ -17,3 +19,15 @@ You can configure the settings related to the installed tool.
 3. Configure the TCP coordinate system. You can set the linear position (X, Y, Z) and rotation angles (RX, RY, RZ).
 4. Set the range of the tool area based on the TCP coordinate system. The area within this range is treated as a self-collision zone.
 5. Save the changed settings.
+
+### 2. Tool List
+
+Up to five tool configurations (TCP, CoG, and payload) can be saved.
+
+![missing](/manual/en/setup/t2.png)
+
+### 3. Extra Link-Payload
+
+Additional equipment such as welding feeders can be mounted on the Shoulder and Elbow.
+
+![missing](/manual/en/setup/t3.png)

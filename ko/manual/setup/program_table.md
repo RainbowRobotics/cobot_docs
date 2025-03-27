@@ -7,7 +7,7 @@ outline: deep
 
 각각의 디지털 입력을 통해 불러올 프로그램을 설정합니다.
 
-![missing](/manual/ko/setup/15-1.png)
+![missing](/manual/ko/setup/table1.png)
 
 1. 기존에 만들어 놓은 설정을 가져옵니다.
 2. 사용할 디지털 입력 포트를 의미합니다.

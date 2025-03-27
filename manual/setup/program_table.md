@@ -7,7 +7,7 @@ outline: deep
 
 You can set up the programs to be triggered by each digital input.
 
-![missing](/manual/en/setup/15-1.png)
+![missing](/manual/en/setup/p1.png)
 
 1. Import the existing settings.
 2. Select the digital input port to be used.

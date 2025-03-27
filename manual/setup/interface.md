@@ -7,9 +7,9 @@ outline: deep
 
 Perform the settings required for the user to operate the robot and UI.
 
-### 1. General
+### 1. GeneralSetting
 
-![missing](/manual/en/setup/10-1.png)
+![missing](/manual/en/setup/inter1.png)
 
 1. Enter the number of repetitions on the Play screen.
 2. Select whether to use the safety slider function on the Make screen.<br>
@@ -29,31 +29,32 @@ Perform the settings required for the user to operate the robot and UI.
 ### 2. HandController Function
 
 <div class="warning custom-block">
-    <p class="custom-block-title">Caution</p>
+    <p class="custom-block-title"> Caution</p>
     <ul>
         <li>
-            For safety reasons, use the mounted(Connected) state of the hand controller as much as possible.
+            For safety reasons, use the <span style="color:red">Mounted(connected)</span> state of the hand controller as much as possible.
         </li>
     </ul>
 </div>
 
-![missing](/manual/en/setup/10-2.png)
+![missing](/manual/en/setup/inter2.png)
 
-13. Check the setting values of the additional function buttons below the emergency stop button.<br>
+13.  Check the setting values of the additional function buttons below the emergency stop button.<br>
     When you press the additional function button, the corresponding button number lights up. This allows you to check if the UI is functioning properly.
-14. - **Change Button Functions** : You can assign functions to each button.
-    - **Hand Controller Attachment Status** : When the robot arm is activated, you can configure whether to use the hand controller or not.
+14.  - **Change Button Functions** : You can assign functions to each button.<br>
+     - **Hand Controller Attachment Status** : When the robot arm is activated, you can configure whether to use the hand controller or not.
 
 ### 3. EtherNet/IP, ProfiNet, OPC-UA
 
-![missing](/manual/en/setup/10-3.png)
+![missing](/manual/en/setup/inter3.png)
 
 15. Enable or disable the Ethernet/IP Adapter function and check its current status.
 16. Enable or disable the ProfiNet Device function and check its current status.
 17. Enable or disable the OPC-UA Server function.
+18. Enable or disable the REST API Server function.
 
 ### 4. OnRobot Box
 
-![missing](/manual/en/setup/10-4.png)
+![missing](/manual/en/setup/inter4.png)
 
-18. Set the IP address for configuring the On-Robot Box.
+19. Set the IP address for configuring the On-Robot Box.
