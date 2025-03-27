@@ -118,7 +118,7 @@ const manualSidebarList: object[] = [
       { text: "9.1 Cobot", link: "/manual/setup/cobot" },
       { text: "9.2 System", link: "/manual/setup/system" },
       { text: "9.3 Tool/TCP", link: "/manual/setup/tool_tcp" },
-      { text: "9.4 Log/Utility", link: "/manual/setup/log_Utility" },
+      { text: "9.4 Log/Utility", link: "/manual/setup/log_utility" },
       { text: "9.5 Socket/Serial", link: "/manual/setup/socket_serial" },
       { text: "9.6 I/O 1", link: "/manual/setup/io_1" },
       { text: "9.7 I/O 2", link: "/manual/setup/io_2" },

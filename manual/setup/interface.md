@@ -7,7 +7,7 @@ outline: deep
 
 Perform the settings required for the user to operate the robot and UI.
 
-### 1. GeneralSetting
+### 1. General Setting
 
 ![missing](/manual/en/setup/inter1.png)
 

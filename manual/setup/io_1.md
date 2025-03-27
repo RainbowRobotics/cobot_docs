@@ -122,7 +122,7 @@ The functions of the output ports (Dout 0 to Dout 15) of the control box can be 
 Output ports set to special features are not available for general use in teaching programs.
 
 <div class="warning custom-block">
-    <p class="custom-block-title">📌 Caution</p>
+    <p class="custom-block-title"> Caution</p>
     <ul>
         <li>
             Before using the digital output, be sure to fully understand the electrical characteristics of the digital output port provided by the manufacturer.
