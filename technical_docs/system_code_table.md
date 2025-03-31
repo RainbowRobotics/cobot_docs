@@ -1312,6 +1312,153 @@ outline: deep
       </td>
     </tr>
     <tr>
+      <th>A187</th>
+      <td>
+        <b>Activating the robot arm is not possible in the virtual control box</b><br>
+        Activating a robotic arm is a feature that is only available if you have an actual robotic arm. The virtual control box must be used in Simulation mode.
+      </td>
+    </tr>
+    <tr>
+      <th>A188</th>
+      <td>
+        <b>Detection of robot joint initial drive abnormality</b><br>
+        Robot arm joint 0 is not moving properly. Try the robot arm activation process again.
+      </td>
+    </tr>
+    <tr>
+      <th>A189</th>
+      <td>
+        <b>Detection of robot joint initial drive abnormality</b><br>
+        Robot arm joint 1 is not moving properly. Try the robot arm activation process again.
+      </td>
+    </tr>
+    <tr>
+      <th>A190</th>
+      <td>
+        <b>Detection of robot joint initial drive abnormality</b><br>
+        Robot arm joint 2 is not moving properly. Try the robot arm activation process again
+      </td>
+    </tr>
+    <tr>
+      <th>A191</th>
+      <td>
+        <b>Detection of robot joint initial drive abnormality</b><br>
+        Robot arm joint 3 is not moving properly. Try the robot arm activation process again.
+      </td>
+    </tr>
+    <tr>
+      <th>A192</th>
+      <td>
+        <b>Detection of robot joint initial drive abnormality</b><br>
+       Robot arm joint 4 is not moving properly. Try the robot arm activation process again.
+      </td>
+    </tr>
+    <tr>
+      <th>A193</th>
+      <td>
+        <b>Detection of robot joint initial drive abnormality</b><br>
+        Robot arm joint 5 is not moving properly. Try the robot arm activation process again
+      </td>
+    </tr>
+    <tr>
+      <th>A220</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 0 does not move normally in the + direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A221</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 1 does not move normally in the + direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A222</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 2 does not move normally in the + direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A223</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 3 does not move normally in the + direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A224</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 4 does not move normally in the + direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A225</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 5 does not move normally in the + direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A226</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 6 does not move normally in the + direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A227</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 0 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A228</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 1 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A229</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 2 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A230</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 3 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A231</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 4 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A232</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 5 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>
+    <tr>
+      <th>A233</th>
+      <td>
+        <b>Detection of abnormal joint motion</b><br>
+        The robot arm joint 6 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
+      </td>
+    </tr>   
+    <tr>
       <th>default</th>
       <td>
         <b>Unknown Activation Fail error code</b><br>
@@ -5577,5 +5724,599 @@ outline: deep
         Additional Axis: AC servo of joint 5 is not in normal ServoOn state.
       </td>
     </tr>
+    <tr>
+      <th>M706</th>
+      <td>
+        Exceeds the maximum amount that can be placed on the task stack.
+      </td>
+    </tr>
+    <tr>
+      <th>M707</th>
+      <td>
+        The payload mounted on the tool flange and link extends beyond the limits of the robot arm.
+      </td>
+    </tr>
+    <tr>
+      <th>M708</th>
+      <td>
+        The Modbus client polling function is only available in the PreProgram section of the top-level main program.
+      </td>
+    </tr>
+    <tr>
+      <th>M709</th>
+      <td>
+        The maximum number of connection lines for the Modbus client polling function has been exceeded.
+      </td>
+    </tr>
+    <tr>
+      <th>M710</th>
+      <td>
+        Return types do not match in function call mode.
+      </td>
+    </tr>
+    <tr>
+      <th>M711</th>
+      <td>
+       A function was executed again while the previous function call was not completed.
+      </td>
+    </tr>
+    <tr>
+      <th>M712</th>
+      <td>
+       No matching variable and function names were found in function call mode.
+      </td>
+    </tr>
+    <tr>
+      <th>M713</th>
+      <td>
+        The function was called in function call mode without any input.
+      </td>
+    </tr>
+    <tr>
+      <th>M714</th>
+      <td>
+        There is a problem with the syntax of the function call mode.
+      </td>
+    </tr>
+    <tr>
+      <th>M715</th>
+      <td>
+        A singularity has occurred in impedance control mode.
+      </td>
+    </tr>
+    <tr>
+      <th>M716</th>
+      <td>
+        The joint angle limit value has been reached in impedance control mode.
+      </td>
+    </tr>
+    <tr>
+      <th>M717</th>
+      <td>
+        The joint torque limit value has been reached in impedance control mode.
+      </td>
+    </tr>
+    <tr>
+      <th>M718</th>
+      <td>
+        The safe area set in impedance control mode has been exceeded.
+      </td>
+    </tr>
+    <tr>
+      <th>M719</th>
+      <td>
+        During joint communication check process joint 6 is not recognized normally.
+      </td>
+    </tr>
+    <tr>
+      <th>M720</th>
+      <td>
+        Joint No. 6 requests the user's angle confirmation and initialization. [PVL]
+      </td>
+    </tr>
+    <tr>
+      <th>M721</th>
+      <td>
+        The angle of joint 6 is out of the maximum + range. You must manually release the brake to turn the joint in the - direction.
+      </td>
+    </tr>
+    <tr>
+      <th>M722</th>
+      <td>
+        The angle of joint 6 is out of the maximum - range. You must manually release the brake to turn the joint in the + direction.
+      </td>
+    </tr>
+    <tr>
+      <th>M723</th>
+      <td>
+        Joint Protection Error : Big Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M724</th>
+      <td>
+        Joint Protection Error : Communication Input Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M725</th>
+      <td>
+       Joint Protection Error : Motor Rotor JAM Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M726</th>
+      <td>
+        Joint Protection Error : Motor Current Over Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M727</th>
+      <td>
+        Joint Protection Error : Motor Position Limit Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M728</th>
+      <td>
+        Joint Protection Error : Board Mode Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M729</th>
+      <td>
+        Joint Protection Error : Board Temperature Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M730</th>
+      <td>
+       Joint Protection Error : Tracking match Error 6
+      </td>
+    </tr>
+    <tr>
+      <th>M731</th>
+      <td>
+       Communication error: The communication of joint 6 of the robot arm is unstable.
+      </td>
+    </tr>
+    <tr>
+      <th>M732</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. undefined section 1
+      </td>
+    </tr>
+    <tr>
+      <th>M733</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. undefined section 2
+      </td>
+    </tr>
+    <tr>
+      <th>M734</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. undefined section 3
+      </td>
+    </tr>
+    <tr>
+      <th>M735</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. undefined section 4
+      </td>
+    </tr>
+    <tr>
+      <th>M736</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. undefined section 5
+      </td>
+    </tr>
+    <tr>
+      <th>M737</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. undefined section 6
+      </td>
+    </tr>
+    <tr>
+      <th>M738</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. undefined section 7
+      </td>
+    </tr>
+    <tr>
+      <th>M739</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 0. Communication problems occur with modules connected to the lower channel.
+      </td>
+    </tr>
+    <tr>
+      <th>M740</th>
+      <td>
+       Joint communication error: There is a problem communicating with joint 1. undefined section 1 
+      </td>
+    </tr>
+    <tr>
+      <th>M741</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 1. undefined section 2 
+      </td>
+    </tr>
+    <tr>
+      <th>M742</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 1. undefined section 3 
+      </td>
+    </tr>
+    <tr>
+      <th>M743</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 1. undefined section 4 
+      </td>
+    </tr>
+    <tr>
+      <th>M744</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 1. The section between joint 0 and joint 
+      </td>
+    </tr>
+    <tr>
+      <th>M745</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 1. undefined section 6
+      </td>
+    </tr>
+    <tr>
+      <th>M746</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 1. undefined section 7
+      </td>
+    </tr>
+    <tr>
+      <th>M747</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 1. Communication problems occur with modules connected to the lower channel.
+      </td>
+    </tr>
+    <tr>
+      <th>M748</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 2. undefined section 1
+      </td>
+    </tr>
+    <tr>
+      <th>M749</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 2. The section between joint 1 and joint 2
+      </td>
+    </tr>
+    <tr>
+      <th>M750</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 2. undefined section 3
+      </td>
+    </tr>
+    <tr>
+      <th>M751</th>
+      <td>
+       Joint communication error: There is a problem communicating with joint 2. undefined section 4
+      </td>
+    </tr>
+    <tr>
+      <th>M752</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 2. The section between joint 0 and joint 1
+      </td>
+    </tr>
+    <tr>
+      <th>M753</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 2. undefined section 6
+      </td>
+    </tr>
+    <tr>
+      <th>M754</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 2. undefined section 7
+      </td>
+    </tr>
+    <tr>
+      <th>M755</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 2. Communication problems occur with modules connected to the lower channel.
+      </td>
+    </tr>
+    <tr>
+      <th>M756</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 3. The section between joint 2 and joint 3
+      </td>
+    </tr>
+     <tr>
+      <th>M757</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 3. The section between joint 1 and joint 2
+      </td>
+    </tr>
+     <tr>
+      <th>M758</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 3. undefined section 3
+      </td>
+    </tr>
+     <tr>
+      <th>M759</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 3. undefined section 4
+      </td>
+    </tr>
+     <tr>
+      <th>M760</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 3. The section between joint 0 and joint 1
+      </td>
+    </tr>
+     <tr>
+      <th>M761</th>
+      <td>
+       Joint communication error: There is a problem communicating with joint 3. undefined section 6
+      </td>
+    </tr>
+     <tr>
+      <th>M762</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 3. undefined section 7
+      </td>
+    </tr>
+     <tr>
+      <th>M763</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint 3. Communication problems occur with modules connected to the lower channel.
+      </td>
+    </tr>
+     <tr>
+      <th>M764</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. ndefined section 1
+      </td>
+    </tr>
+     <tr>
+      <th>M765</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. ndefined section 2
+      </td>
+    </tr>
+     <tr>
+      <th>M766</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. ndefined section 3
+      </td>
+    </tr>
+     <tr>
+      <th>M767</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. ndefined section 4
+      </td>
+    </tr>
+     <tr>
+      <th>M768</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. ndefined section 5
+      </td>
+    </tr>
+     <tr>
+      <th>M769</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. ndefined section 6
+      </td>
+    </tr>
+     <tr>
+      <th>M770</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. ndefined section 7
+      </td>
+    </tr>
+     <tr>
+      <th>M771</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 4. Communication problems occur with modules connected to the upper channel.
+      </td>
+    </tr>
+     <tr>
+      <th>M772</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 5. undefined section 1
+      </td>
+    </tr>
+     <tr>
+      <th>M773</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 5. undefined section 2
+      </td>
+    </tr>
+     <tr>
+      <th>M774</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 5. undefined section 3
+      </td>
+    </tr>
+    <tr>
+      <th>M775</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 5. undefined section 4
+      </td>
+    </tr>
+    <tr>
+      <th>M776</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 5. Section between joint 4 and joint 5
+      </td>
+    </tr>
+    <tr>
+      <th>M777</th>
+      <td>
+       Joint communication error: There is a problem communicating with joint number 5. undefined section 6
+      </td>
+    </tr>
+    <tr>
+      <th>M778</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 5. undefined section 7
+      </td>
+    </tr>
+    <tr>
+      <th>M779</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 5. Communication problems occur with modules connected to the upper channel.
+      </td>
+    </tr>
+    <tr>
+      <th>M780</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. undefined section 1
+      </td>
+    </tr>
+    <tr>
+      <th>M781</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. Section between joint 5 and joint 6
+      </td>
+    </tr>
+    <tr>
+      <th>M782</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. undefined section 3
+      </td>
+    </tr>
+    <tr>
+      <th>M783</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. undefined section 4
+      </td>
+    </tr>
+    <tr>
+      <th>M784</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. Section between joint 4 and joint 5
+      </td>
+    </tr>
+    <tr>
+      <th>M785</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. undefined section 6
+      </td>
+    </tr>
+    <tr>
+      <th>M786</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. undefined section 7
+      </td>
+    </tr>
+    <tr>
+      <th>M787</th>
+      <td>
+        Joint communication error: There is a problem communicating with joint number 6. Communication problems occur with modules connected to the upper channel.
+      </td>
+    </tr>
+    <tr>
+      <th>M788</th>
+      <td>
+        MUL Error. The angle of joint 6 has moved more than 90 degrees from the last used value in the no-power state. Release the brake with your hand and return the joint to its original position.
+      </td>
+    </tr>
+    <tr>
+      <th>M789</th>
+      <td>
+        Protector FLT error persists at robot arm joint 6. Problems may arise when operating the robot arm.
+      </td>
+    </tr>
+    <tr>
+      <th>M790</th>
+      <td>
+        Communication error: The communication of joint 6 of the robot arm is unstable. L2C communication line is unstable.
+      </td>
+    </tr>
+    <tr>
+      <th>M791</th>
+      <td>
+        Joint Protection Error : Motor Stator Temperature Error at Joint 6
+      </td>
+    </tr>
+    <tr>
+      <th>M792</th>
+      <td>
+        Joint Protection Error : Current Sensing Biasing Error at Joint 0 
+      </td>
+    </tr>
+    <tr>
+      <th>M793</th>
+      <td>
+        Joint reducer protection error 6: A load exceeding the allowable torque of the gear occurs.
+      </td>
+    </tr>
+    <tr>
+      <th>M794</th>
+      <td>
+        A movement error is detected during the initialization process of robot arm joint 6.
+      </td>
+    </tr>
+    <tr>
+      <th>M795</th>
+      <td>
+        Flange communication error: Section between robot arm joint number 6 and flange
+      </td>
+    </tr>
+    <tr>
+      <th>M796</th>
+      <td>
+        Flange communication error: Section between robot arm joints 5 and 6
+      </td>
+    </tr>
+    <tr>
+      <th>M797</th>
+      <td>
+        Flange communication error: undefined section 3
+      </td>
+    </tr>
+    <tr>
+      <th>M798</th>
+      <td>
+       Flange communication error: undefined section 4
+      </td>
+    </tr>
+    <tr>
+      <th>M799</th>
+      <td>
+        Flange communication error: Section between robot arm joints 4 and 5
+      </td>
+    </tr>
+    <tr>
+      <th>M800</th>
+      <td>
+        Flange communication error: undefined section 6
+      </td>
+    </tr>
+    <tr>
+      <th>M801</th>
+      <td>
+        Flange communication error: undefined section 7
+      </td>
+    </tr>
+    <tr>
+      <th>M802</th>
+      <td>
+        Flange communication error: A communication problem occurs with modules connected to the upper channel.
+      </td>
+    </tr>
+    <tr>
+      <th>M803</th>
+      <td>
+        A mode P2C conversion error occurred at joint 6. Check the log for details.
+      </td>
+    </tr>
+    <tr>
+      <th>M804</th>
+      <td>
+        A mode C2P conversion error occurred at joint 6. Check the log for details.
+      </td>
+    </tr>   
   </table>
 </div>
