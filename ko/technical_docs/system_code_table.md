@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# RB 시스템 코드 테이블 v6.10
+# RB 시스템 코드 테이블 v7.3
 
 ### 1. 활성화 메시지 코드 (A)
 

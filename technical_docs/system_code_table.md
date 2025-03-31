@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# RB System Code Table v6.10
+# RB System Code Table v7.3
 
 ### 1. Activation Message Code (A)
 
