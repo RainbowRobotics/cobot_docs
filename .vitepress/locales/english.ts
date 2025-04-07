@@ -204,6 +204,7 @@ const technicalDocsSidebarList: object[] = [
       { text: "Ui Customizing", link: "/technical_docs/ui_customizing" },
       { text: "Import user Env-Modeling file", link: "/technical_docs/user_base_modeling" },
       { text: "Import user Tool-Modeling file", link: "/technical_docs/user_tool_modeling" },
+      { text: "Use Linux Ui", link: "/technical_docs/use_linux_ui" },
     ],
   },
   {

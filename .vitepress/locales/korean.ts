@@ -198,6 +198,7 @@ const technicalDocsSidebarList: object[] = [
       { text: "Ui 커스터마이징", link: "/ko/technical_docs/ui_customizing" },
       { text: "사용자 환경 모델링 파일 넣기", link: "/ko/technical_docs/user_base_modeling" },
       { text: "사용자 툴 모델링 파일 넣기", link: "/ko/technical_docs/user_tool_modeling" },
+      { text: "리눅스 Ui 사용하기", link: "/ko/technical_docs/use_linux_ui" },
     ],
   },
   {

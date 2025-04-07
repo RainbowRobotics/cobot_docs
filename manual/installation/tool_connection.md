@@ -262,7 +262,7 @@ Secure the tool to the tool flange using four M6 bolts(Standard: ISO 9409-1-50-4
       </tr>
     </table>
   </div>
-- [E, U Version] The tool digital output is applied in the NPN method, when the digital output is enabled, the connection of the port leads to the VCC.<br>
+- [E, U Version] The tool digital output is applied in the PNP method, when the digital output is enabled, the connection of the port leads to the VCC.<br>
   When disabled, the output port is open (open-collector/open-drain), the electrical specifications are as follows.
   <div class="center-align th-align td-align">
     <table>
