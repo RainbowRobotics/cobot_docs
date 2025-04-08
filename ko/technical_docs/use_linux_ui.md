@@ -14,7 +14,7 @@ outline: deep
     </ol>
 </div>
 
-1. 레인보우로보틱스 공식 홈페이지에 접속합니다. (www.rainbow-robotics.com)
+1. 레인보우로보틱스 공식 홈페이지에 접속합니다. (https:/www.rainbow-robotics.com)
    
 2. 상단의 '기술지원' -> '협동로봇 기술자료'에 접속합니다. 
 

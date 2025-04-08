@@ -11,7 +11,7 @@ This manual was tested with Ubuntu 22.04.
 
 :::
 
-1. Navigate to Rainbow-Robotics Web. (www.rainbow-robotics.com)
+1. Navigate to Rainbow-Robotics Web. (https://www.rainbow-robotics.com)
    
 2. Access ‘Tech support’ -> ‘Cobot Tech Resources’ from the top bar.
 
