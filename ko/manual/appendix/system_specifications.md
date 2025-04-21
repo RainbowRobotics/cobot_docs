@@ -167,7 +167,7 @@ outline: deep
             <th class="sub-title" rowspan="5">LED 상태</th>
         </tr>
         <tr>
-            <td>제어박스와 활성화 되었을 때: 아래 1칸 깜빡임</td>
+            <td>제어박스와 로봇팔이 활성화 되었을 때: 아래 1칸 깜빡임</td>
         </tr>
         <tr>
             <td>시뮬레이션 모드일 때: 아래 2칸 깜빡임</td>

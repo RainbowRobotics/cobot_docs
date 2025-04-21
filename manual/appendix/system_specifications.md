@@ -173,7 +173,7 @@ outline: deep
             <td>In Simulation Mode: Two lower LEDs blink</td>
         </tr>
         <tr>
-            <td>n Real Mode: Three lower LEDs blink</td>
+            <td>In Real Mode: Three lower LEDs blink</td>
         </tr>
         <tr>
             <td>During Program Execution: All LEDs blink at 1-second intervals. If a collision is detected, the LEDs blink at a faster rate.</td>
