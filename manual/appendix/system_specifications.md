@@ -163,6 +163,21 @@ outline: deep
         <tr>
             <td>Estop/Jog Interface cable: less 3m</td>
         </tr>
+        <tr>
+            <th class="sub-title" rowspan="5">LED Status</th>
+        </tr>
+        <tr>
+            <td>When the control box and robot are activated: The bottom LED blinks once.</td>
+        </tr>
+        <tr>
+            <td>In Simulation Mode: Two lower LEDs blink</td>
+        </tr>
+        <tr>
+            <td>n Real Mode: Three lower LEDs blink</td>
+        </tr>
+        <tr>
+            <td>During Program Execution: All LEDs blink at 1-second intervals. If a collision is detected, the LEDs blink at a faster rate.</td>
+        </tr>
     </table>
 </div>
 
