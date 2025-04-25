@@ -262,6 +262,7 @@ const exampleSidebarList: object[] = [
   { text: "1023. M.Macro", link: "/example_manual/1000/how_to_use_motion_macro" },
   { text: "1024. Move Circle", link: "/example_manual/1000/how_to_use_circle" },
   { text: "1025. Tool List", link: "/example_manual/1000/how_to_use_tool_list" },
+  { text: "1026. DB Variable", link: "/example_manual/1000/how_to_use_db_variable" },
   // 2000
   { text: "2001. TCP Socket", link: "/example_manual/2000/how_to_use_tcp_socket" },
   { text: "2002. Mitsubishi MC Protocol", link: "/example_manual/2000/how_to_use_mitsubishi" },
@@ -275,12 +276,13 @@ const exampleSidebarList: object[] = [
   },
   { text: "2008. OMRON FINS Protocol", link: "/example_manual/2000/how_to_use_omron_fins" },
   { text: "2009. SIEMENS S7 Protocol", link: "/example_manual/2000/how_to_use_siemens_s7" },
-  { text: "2010. ProfiNet", link: "/example_manual/2000/how_to_use_profinet" },
+  { text: "2010. How to use LS HMI", link: "/example_manual/2000/how_to_use_ls_hmi" },
+  { text: "2011. ProfiNet", link: "/example_manual/2000/how_to_use_profinet" },
   {
-    text: "2011. Execute Prog. (Modbus)",
+    text: "2012. Execute Prog. (Modbus)",
     link: "/example_manual/2000/how_to_execute_modbus_comm",
   },
-  { text: "2012. How to read CSV FILE", link: "/example_manual/2000/how_to_read_csv_file" },
+  { text: "2013. How to read CSV FILE", link: "/example_manual/2000/how_to_read_csv_file" },
   // 3000
   { text: "3001. Imaginary Conveyor", link: "/example_manual/3000/how_to_use_imaginary_conveyor" },
   { text: "3002. Force Control Example", link: "/example_manual/3000/how_to_use_force_control" },
