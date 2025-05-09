@@ -263,6 +263,7 @@ const exampleSidebarList: object[] = [
   { text: "1024. Move Circle", link: "/example_manual/1000/how_to_use_circle" },
   { text: "1025. Tool List", link: "/example_manual/1000/how_to_use_tool_list" },
   { text: "1026. DB Variable", link: "/example_manual/1000/how_to_use_db_variable" },
+  { text: "1027. User Input", link: "/example_manual/1000/how_to_use_user_input" },
   // 2000
   { text: "2001. TCP Socket", link: "/example_manual/2000/how_to_use_tcp_socket" },
   { text: "2002. Mitsubishi MC Protocol", link: "/example_manual/2000/how_to_use_mitsubishi" },
