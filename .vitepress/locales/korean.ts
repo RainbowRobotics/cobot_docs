@@ -279,6 +279,7 @@ const exampleSidebarList: object[] = [
     link: "/ko/example_manual/2000/how_to_execute_modbus_comm",
   },
   { text: "2013. How to read CSV FILE", link: "/ko/example_manual/2000/how_to_read_csv_file" },
+  { text: "2014. How to Use SW PLC", link: "/ko/example_manual/2000/how_to_use_sw_plc" },
 
 
   // 3000
