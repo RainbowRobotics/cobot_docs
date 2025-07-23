@@ -1457,7 +1457,14 @@ outline: deep
         <b>Detection of abnormal joint motion</b><br>
         The robot arm joint 6 does not move normally in the - direction. Check if the load setting is appropriate. The robot arm may be receiving external force from a surrounding structure. Or, the brake in the corresponding direction may not be working properly.
       </td>
-    </tr>   
+    </tr>
+    <tr>
+      <th>A234</th>
+      <td>
+        <b>Control box current flow abnormality detection</b><br>
+        Abnormal current flow was detected while turning on the DC power in the control box.
+      </td>
+    </tr>      
     <tr>
       <th>default</th>
       <td>
@@ -6317,6 +6324,36 @@ outline: deep
       <td>
         A mode C2P conversion error occurred at joint 6. Check the log for details.
       </td>
-    </tr>   
+    </tr>
+     <tr>
+      <th>M805</th>
+      <td>
+       Communication with the synchronized robot has been lost.
+      </td>
+    </tr>  
+     <tr>
+      <th>M806</th>
+      <td>
+        Power to the synchronized robot has been cut off.
+      </td>
+    </tr>  
+     <tr>
+      <th>M807</th>
+      <td>
+        Tracking errors occur during sync operations with synchronized robots.
+      </td>
+    </tr>  
+     <tr>
+      <th>M808</th>
+      <td>
+        Failed to send Ui's work files to the control box using TCP communication. There may be a problem with the firewall settings of the user's device. Or, there may be an issue due to the presence of too many work files in Ui. Or, there may be insufficient bandwidth in the communication network.
+      </td>
+    </tr>  
+     <tr>
+      <th>M809</th>
+      <td>
+       Abnormal current flow was detected while turning on the DC power in the control box.
+      </td>
+    </tr>     
   </table>
 </div>
