@@ -176,6 +176,8 @@ const technicalDocsSidebarList: object[] = [
       { text: "System Variables", link: "/technical_docs/system_variables" },
       { text: "Start User Guide", link: "/technical_docs/start_user_guide" },
       { text: "Software Update", link: "/technical_docs/software_update" },
+      { text: "Control-Box files Back-up", link: "/technical_docs/back_up_control_box_file" },
+      { text: "Log Back-up", link: "/technical_docs/back_up_log" },
       { text: "D.H. Parameters", link: "/technical_docs/dh_parameters" },
       { text: "Analytic Inverse Kinematics", link: "/technical_docs/analytic_inverse_kinematics" },
     ],

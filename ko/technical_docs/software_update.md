@@ -3,112 +3,116 @@ layout: doc
 outline: deep
 ---
 
-# RB Series Software Update v2.1
+# RB 시리즈 소프트웨어 업데이트 v2.1
 
-### HOW TO UPDATE SOFTWARE
+### 소프트웨어 업데이트 방법
 
 <div class="warning custom-block">
   <p class="custom-block-title">WARNING</p>
   <ul>
     <li>
-      It is recommended to back-up the program files (.wsl) inside the tablet UI before the system update.
+      시스템 업데이트 전에 태블릿 UI 내의 프로그램 파일(.wsl)을 백업하는 것을 권장합니다.
     </li>
   </ul>
 </div>
 
-#### 1. Rainbow Robotics' system update is a two-step process.
+#### 1. 레인보우로보틱스의 시스템 업데이트는 2단계로 진행됩니다.
 
 <br>
 
 <div style="padding: 8px 8px 8px 16px; background-color: rgba(0, 0, 255, 0.1); border-radius: 8px;">
-  <p>UI update through APK install → System software (control box) update</p>
+  <p>APK 설치를 통한 UI 업데이트 → 시스템 소프트웨어(제어박스) 업데이트</p>
 </div>
 
 <br>
 
-#### 2. Backup Program file
+#### 2. 프로그램 파일 백업
 
-Connect the tablet and personal / business PC and obtain the program files (.wsl) from the path below and back them up.<br>
+태블릿과 개인용 또는 업무용 PC를 연결한 후, 아래 경로에서 프로그램 파일(.wsl)을 복사하여 백업하십시오.<br>
 
-- It is recommended that you back up the acquired files before proceeding to the next step.
+- 다음 단계로 진행하기 전에, 저장되어 있는 파일을 반드시 백업해두는 것을 권장합니다..
 
 <div style="padding: 8px 8px 8px 16px; background-color: rgba(0, 0, 255, 0.1); border-radius: 8px;">
-  <p>Tablet > Android > data > com.rainbow.cobot > files > work > GET .wsl files</p>
+  <p>Tablet > Android > data > com.rainbow.cobot > files > work > .wsl files 가져오기</p>
 </div>
 
 <br>
 
-#### 3. UI Program Update
+#### 3. UI 프로그램 업데이트
 
-Rainbow Robotics' tablet UI program is distributed in the form of APK.<br>
-This is the same installation file as a regular Android application. Therefore, UI program is updated by moving the installation APK file to the tablet and installing it.
+레인보우로보틱스의 태블릿 UI 프로그램은 APK 형태로 배포됩니다.<br>
+이는 일반적인 안드로이드 애플리케이션과 동일한 설치 파일입니다.
+따라서, UI 프로그램은 설치용 APK 파일을 태블릿으로 이동한 후 설치하는 방식으로 업데이트됩니다.
 
 :::warning
 
-- Since the program files (.wsl) are also deleted when the existing application is deleted, back up the program file in step 1.2 before proceeding with this process.
-- When updating without deleting the existing application, program files (wsl) and other settings are maintained. Nevertheless, it is recommended to back up the 1.2 process
+- 기존 애플리케이션을 삭제하면 프로그램 파일(.wsl)도 함께 삭제되므로, 본 과정을 진행하기 전에 1.2단계에서 프로그램 파일을 반드시 백업하십시오.
+- 기존 애플리케이션을 삭제하지 않고 업데이트하는 경우, 프로그램 파일(.wsl) 및 기타 설정은 유지됩니다. 그럼에도 불구하고, 1.2단계의 백업 절차를 수행하는 것을 권장합니다.
   :::
 
 <div style="padding: 8px 8px 8px 16px; background-color: rgba(0, 0, 255, 0.1); border-radius: 8px;">
-  <p>Copy the distributed APK file into Tablet → APK install</p>
+  <p>배포된 APK 파일을 태블릿에 복사한 후 → 설치를 진행하십시오.</p>
 </div>
 
 <br>
 
-#### 4. Connection between Tablet PC and Control Box
+#### 4. 태블릿 PC와 제어박스 간 연결
 
-Connect the tablet to the control box using a USB cable and run the UI program. After running the UI program, connect the tablet and the control box communication.<br>
+USB 케이블을 사용하여 태블릿을 제어박스에 연결한 후, UI 프로그램을 실행하십시오.
+UI 프로그램 실행 후, 태블릿과 제어박스 간 통신을 연결하십시오.<br>
 
-- If the communication between the tablet and the control box is normal, the first box will be lit blue. For safety reasons, it is recommended not to initialize the robot arm
+- 태블릿과 제어박스 간 통신이 정상적으로 연결되면, 첫 번째 상자가 파란색으로 점등됩니다. 안전상의 이유로 로봇 팔을 초기화하지 않는 것을 권장합니다.
+
+
 
 <div style="padding: 8px 8px 8px 16px; background-color: rgba(0, 0, 255, 0.1); border-radius: 8px;">
   <p style="display:flex; align-items:center; white-space:pre">
-    UI Home → Setup → Click ‘State’ button 
+    UI Home → Setup → ‘State’ 버튼 클릭 하기 
     <img src="/technical_docs/common/tcp_wireless/4-1.png" />
-    → Connect</p>
+    → 연결</p>
 </div>
 
 <br>
 
-#### 5. Go to and activate the system software update
+#### 5. 시스템 소프트웨어 업데이트 항목으로 이동하여 업데이트를 활성화하십시오.
 
-Navigate to the system software update path as shown below.
+아래에 표시된 경로를 따라 시스템 소프트웨어 업데이트 메뉴로 이동하십시오.
 
 <div style="padding: 8px 8px 8px 16px; background-color: rgba(0, 0, 255, 0.1); border-radius: 8px;">
-  <p>UI Home → Setup → System Tab</p>
+  <p>UI Home → Setup → System </p>
 </div>
 
 ![missing](/technical_docs/common/software_update/5-1.png)
 
-In the [Software Update] section on the right, click the Activate checkbox.
+우측의 [소프트웨어 업데이트] 섹션에서 Activate 체크박스를 클릭하십시오.
 
 ![missing](/technical_docs/common/software_update/5-2.png)
 
-#### 6. Progress Control-Box System Software Update
+#### 6. 제어박스 시스템 소프트웨어 업데이트 진행
 
-The Update button will appear and click this button to open a popup window.
+“Update” 버튼이 표시되며, 이 버튼을 클릭하면 팝업 창이 열립니다.
 
 ![missing](/technical_docs/common/software_update/6.png)
 
-- Press “OK” button to update the control box software.
-- If the update is completed normally after clicking the OK button, the PC of the control box (controller) will automatically restart within 5 ~ 15 seconds.
-- During the restart process, “Please Wait…” is displayed on the LCD of the control box. This indicates that the control box is rebooting.
-- After the reboot is completed, “Normal Operation” (or other messages may appear) is displayed on the LCD of the control box.
+- 제어박스 소프트웨어를 업데이트하려면 “OK” 버튼을 누르십시오.
+- “OK” 버튼을 클릭한 후 업데이트가 정상적으로 완료되면, 약 5~15초 이내에 제어박스(컨트롤러)의 PC가 자동으로 재시작됩니다.
+- 재시작 과정 중에는 제어박스 LCD에 “Please Wait…” 문구가 표시됩니다. 이는 제어박스가 재부팅 중임을 나타냅니다.
+- 재부팅이 완료되면, 제어박스 LCD에 “Normal Operation” 문구(또는 기타 메시지)가 표시됩니다.
 
-#### 7. Check the Software Update
+#### 7. 소프트웨어 업데이트 확인
 
-Reconnect the UI tablet and control box.
+UI 태블릿과 제어박스를 다시 연결하십시오.
 
 <div style="padding: 8px 8px 8px 16px; background-color: rgba(0, 0, 255, 0.1); border-radius: 8px;">
   <p style="display:flex; align-items:center; white-space:pre">
-    UI Home → Make → Click ‘State’ button 
+    UI Home → Make → ‘State’ 버튼 클릭하기
     <img src="/technical_docs/common/tcp_wireless/4-1.png" />
-    → Connect</p>
+    → 연결</p>
 </div>
 
-When you go back to the home screen of the UI, the software version is displayed on the upper right (or lower left). Check if it is updated to the correct version.
+UI 홈 화면으로 돌아가면, 소프트웨어 버전이 우측 상단(또는 좌측 하단)에 표시됩니다. 정상적으로 업데이트되었는지 해당 버전 정보를 확인하십시오.
 
-![missing](/technical_docs/common/software_update/7.png)
+![missing](/technical_docs/common/software_update/7_1.png)
 
-<span style="color:red">When the update is completed normally, this update<br>
-<b>System Version: 22012803, Ui Version: 4.1.3</b> should be displayed</span>
+<span style="color:red">업데이트가 정상적으로 완료되면, <br>
+<b>System Version: 25062404 [7.6.4], Ui Version: 7.6.4</b>  버전이 나타나게 됩니다.</span>
