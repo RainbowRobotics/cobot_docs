@@ -3,19 +3,18 @@ layout: doc
 outline: deep
 ---
 
-# Modbus Server v6.10
+# 모드버스 서버 v6.10
 
 :::warning
-This manual is about Modbus <b>server(slave).</b>
+이 매뉴얼은 Modbus <b>server(slave)</b>에 관한 설명서 입니다. 
 :::
 
-### 1. Outline
+### 1. 개요
 
-The Modbus TCP server (slave) of the RB Series is fixed to port number 502. The IP address changes
-depending on the network settings through the UI (initial IP address: 10.0.2.7).<br>
+RB 시리즈의 Modbus TCP 서버(슬레이브)는 포트 번호 502로 고정되어 있습니다.<br>
+IP 주소는 UI를 통한 네트워크 설정에 따라 변경되며, 초기 IP 주소는 10.0.2.7입니다.<br>
 
-The Modbus server of the RB Series allows multiple clients to connect and performs the following
-operation commands.
+RB 시리즈의 Modbus 서버는 여러 클라이언트의 동시 접속을 허용하며, 아래의 운영 명령어를 수행합니다.
 
 <div class="center-align last-child-align th-align td-align">
    <table>
@@ -61,10 +60,9 @@ operation commands.
    </table>
 </div>
 
-### 2. Exception Code
+### 2. 예외 코드
 
-If an incorrect address is accessed, the value range is incorrect, or an incorrect command is sent, the
-error message below is returned.
+잘못된 주소에 접근했거나, 값의 범위가 올바르지 않거나, 잘못된 명령어가 전송된 경우, 아래의 오류 메시지가 반환됩니다.
 
 <div class="center-align th-align td-align">
    <table>
@@ -87,7 +85,7 @@ error message below is returned.
    </table>
 </div>
 
-### 3. Bit Address Map
+### 3. 비트 주소 맵
 
 <div class="center-align second-child-align th-align td-align">
    <table>
@@ -535,7 +533,7 @@ error message below is returned.
    </table>
 </div>
 
-### 4. Word(16 bit) Address Map
+### 4. 워드(16 bit) 주소 맵
 
 <div class="center-align second-child-align last-child-align th-align td-align">
    <table>

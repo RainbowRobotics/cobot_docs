@@ -170,8 +170,6 @@ const technicalDocsSidebarList: object[] = [
       { text: "시스템 변수", link: "/ko/technical_docs/system_variables" },
       { text: "시작 사용자 가이드", link: "/ko/technical_docs/start_user_guide" },
       { text: "소프트웨어 업데이트", link: "/ko/technical_docs/software_update" },
-      { text: "제어박스 내부 파일 백업하기", link: "/ko/technical_docs/back_up_control_box_file" },
-      { text: "로그 백업하기", link: "/ko/technical_docs/back_up_log" },
       { text: "D.H. Parameters", link: "/ko/technical_docs/dh_parameters" },
       { text: "Analytic Inverse Kinematics", link: "/ko/technical_docs/analytic_inverse_kinematics" },
     ],
@@ -210,7 +208,8 @@ const technicalDocsSidebarList: object[] = [
       { text: "제어박스 디지털 I/O 특수 기능", link: "/ko/technical_docs/digital_io_function" },
       { text: "핸드 컨트롤러 기능 설정", link: "/ko/technical_docs/set_hc_function" },
       { text: "제어박스 시간대 설정", link: "/ko/technical_docs/set_cb_time_zone" },
-      { text: "제어박스 파일 백업", link: "/ko/technical_docs/backup_cb_files" },
+      { text: "제어박스 내부 파일 백업하기", link: "/ko/technical_docs/back_up_control_box_file" },
+      { text: "로그 백업하기", link: "/ko/technical_docs/back_up_log" },
     ],
   },
   {

@@ -190,39 +190,39 @@ outline: deep
          <td>Rising Edge is command</td>
       </tr>
    </table>
-   <figcaption>[ Basic command for operating the robot arm ]</figcaption>
+   <figcaption>[ 로봇 팔 운용을 위한 기본 명령어 ]</figcaption>
 </div>
 
-1. Activating the robot arm
+1. 로봇 팔 활성화
 
    - Modbus Address 107(Robot Arm activation) <span style="color: blue">Write</span> <br>
      <span style="color: red"><b>⇒</b></span> Modbus Address 50(Is Robot Activated) <span style="color: orange">Read</span>
 
-2. Converting to Real-mode
+2. 리얼 모드로 전환
 
    - Modbus Address 108(Change to Real-mode) <span style="color: blue">Write</span> <br>
      <span style="color: red"><b>⇒</b></span> Modbus Address 51(Is Real-mode) <span style="color: orange">Read</span>
 
-3. Start Program
+3. 프로그램 시작
 
    - Modbus Address 100(Start Program Once) <span style="color: blue">Write</span> (In case of executing the program once) <br>
      <span style="color: red"><b>⇒</b></span> Modbus Address 58(Is Program Run) <span style="color: orange">Read</span>
    - Modbus Address 101(Start Program Repeat) <span style="color: blue">Write</span> (In case of executing the program repeatedly) <br>
      <span style="color: red"><b>⇒</b></span> Modbus Address 58(Is Program Run) <span style="color: orange">Read</span>
 
-4. Stop Program
+4. 프로그램 정지
 
    - Modbus Address 103(Stop Program) <span style="color: blue">Write</span> <br>
      <span style="color: red"><b>⇒</b></span> Modbus Address 58(Is Program Run) <span style="color: orange">Read</span>
 
-5. Power off the robot arm
+5. 로봇 팔 전원 끄기
 
    - Modbus Address 109(Power off the robot arm) <span style="color: blue">Write</span> <br>
      <span style="color: red"><b><b>⇒</b></b></span> Modbus Address 50(Is Robot Activated) <span style="color: orange">Read</span>
 
 ::: danger
-In case of writing addresses 100 to 109, you must write the same value as the address.<br>
-In case of re-writing a command that has already been written, it must be overwritten with a different value before sending.
+주소 100번부터 109번까지에 값을 기록하는 경우, 주소 값과 동일한 값을 기록해야 합니다.<br>
+이미 기록된 명령을 다시 기록할 경우에는, 이전에 기록된 값과 다른 값으로 덮어쓴 후 전송해야 합니다.
 :::
 
 <style scoped>

@@ -3,16 +3,16 @@ layout: doc
 outline: deep
 ---
 
-# Data Structure (reqdata) v6.10
+# 데이터 구조 (reqdata) v6.10
 
 <div class="warning custom-block">
   <p class="custom-block-title">CAUTION</p>
   <ul>
     <li>
-      This document is a structure description of status data that can be acquired through port 5001.
+      이 문서는 포트 5001을 통해 획득 가능한 상태 데이터의 구조를 설명한 자료입니다.
     </li>
     <li>
-      The contents may be updated depending on the software version, and this document is based on version 4.3.1.
+      내용은 소프트웨어 버전에 따라 변경될 수 있으며, 본 문서는 버전 4.3.1을 기준으로 작성되었습니다.
     </li>
   </ul>
 </div>
@@ -108,7 +108,7 @@ typedef union{
 
 #### 1. <span style="color:purple">char</span> header[4]
 
-Header of this data structure
+이 데이터 구조의 헤더더
 
 ```C++
 header[0] = 0x24
@@ -119,11 +119,11 @@ header[3] = 0x03; // Type of this data
 
 #### 2. <span style="color:purple">float</span> time
 
-Basic Timer (unit: second)
+기본 타이머 (단위: 초)
 
 #### 3. <span style="color:purple">float</span> jnt_ref[6]
 
-Reference angle of each joint. (unit: degree)
+각 관절의 기준 각도 (단위: 도)
 
 > 0 = Base<br>
 > 1 = Shoulder<br>
@@ -134,7 +134,7 @@ Reference angle of each joint. (unit: degree)
 
 #### 4. <span style="color:purple">float</span> jnt_ang[6]
 
-Real-encoder (measured) angle of each joint. (unit: degree)
+각 관절의 실측 엔코더 각도 (단위: 도)
 
 > 0 = Base<br>
 > 1 = Shoulder<br>
@@ -145,7 +145,7 @@ Real-encoder (measured) angle of each joint. (unit: degree)
 
 #### 5. <span style="color:purple">float</span> jnt_cur[6]
 
-Measured current of each joint. (unit: Ampere)
+각 관절의 실측 전류 (단위: 암페어)
 
 > 0 = Base<br>
 > 1 = Shoulder<br>
@@ -156,7 +156,7 @@ Measured current of each joint. (unit: Ampere)
 
 #### 6. <span style="color:purple">float</span> tcp_ref[6]
 
-TCP posture info based on reference-joint-angles (unit: mm & degree)
+기준 관절 각도 기반의 TCP 자세 정보 (단위: mm 및 도)
 
 > 0 = X<br>
 > 1 = Y<br>
@@ -167,7 +167,7 @@ TCP posture info based on reference-joint-angles (unit: mm & degree)
 
 #### 7. <span style="color:purple">float</span> tcp_pos[6]
 
-TCP posture info based on encoder-joint-angles (unit: mm & degree)
+엔코더 관절 각도 기반의 TCP 자세 정보 (단위: mm 및 도)
 
 > 0 = X<br>
 > 1 = Y<br>
@@ -176,35 +176,35 @@ TCP posture info based on encoder-joint-angles (unit: mm & degree)
 > 4 = Ry<br>
 > 5 = Rz<br>
 >
-> - It is being transmitted overwritten based on the current reference.
+> - 현재 기준값을 기반으로 덮어쓰는 방식으로 전송되고 있습니다.
 
 #### 8. <span style="color:purple">float</span> analog_in[4]
 
-Control box analog input measurement information of each channel (unit: Voltage)
+제어박스 아날로그 입력 각 채널의 측정 정보 (단위: 전압)
 
 > Channel number: 0 ~ 3
 
 #### 9. <span style="color:purple">float</span> analog_out[4]
 
-Control box analog output information of each channel (unit: Voltage)
+제어박스 아날로그 출력 각 채널의 정보 (단위: 전압)
 
 > Channel number: 0 ~ 3
 
 #### 10. <span style="color:purple">int</span> digital_in[16]
 
-Control box digital input measurement information of each channel (value: 0 or 1)
+제어박스 디지털 입력 각 채널의 측정 정보 (값: 0 또는 1)
 
 > Channel number: 0 ~ 15
 
 #### 11. <span style="color:purple">int</span> digital_out[16]
 
-Control box digital output information of each channel (value: 0 or 1)
+제어박스 디지털 출력 각 채널의 정보 (값: 0 또는 1)
 
 > Channel number: 0 ~ 15
 
 #### 12. <span style="color:purple">float</span> jnt_temperature[6]
 
-Measured temperature of each joint. (unit: celsius)
+각 관절의 실측 온도 (단위: 섭씨 °C)
 
 > 0 = X<br>
 > 1 = Y<br>
@@ -215,27 +215,27 @@ Measured temperature of each joint. (unit: celsius)
 
 #### 13. <span style="color:purple">int</span> task_pc **<span style="color:red">(Not for user)</span>**
 
-Target program counter position during STEP function.
+STEP 기능 수행 중의 목표 프로그램 카운터 위치
 
 #### 14. <span style="color:purple">int</span> task_repeat **<span style="color:red">(Not for user)</span>**
 
-Target program execution number in PLAY page.
+PLAY 페이지에서의 대상 프로그램 실행 번호
 
 #### 15. <span style="color:purple">int</span> task_run_id **<span style="color:red">(Not for user)</span>**
 
-Running program counter position.
+현재 실행 중인 프로그램의 카운터 위치
 
 #### 16. <span style="color:purple">int</span> task_run_num **<span style="color:red">(Not for user)</span>**
 
-Current program execution number in PLAY page.
+PLAY 페이지에서 현재 실행 중인 프로그램 번호
 
 #### 17. <span style="color:purple">int</span> task_run_time **<span style="color:red">(Not for user)</span>**
 
-Time since the program started (unit: second)
+프로그램 시작 이후 경과 시간 (단위: 초)
 
 #### 18. <span style="color:purple">int</span> task_state
 
-Basic state of ‘Program Execution’
+‘프로그램 실행’의 기본 상태
 
 > 1 = Program not run / Idle<br>
 > 3 = Program is running<br>
@@ -243,11 +243,11 @@ Basic state of ‘Program Execution’
 
 #### 19. <span style="color:purple">float</span> default_speed
 
-Default speed multiplier value of robot motion (=speed bar in UI) (value: 0 ~ 1)
+로봇 동작의 기본 속도 배율 값 (= UI의 속도 바) (값 범위: 0 ~ 1)
 
 #### 20. <span style="color:purple">int</span> robot_state
 
-Move (motion) state
+이동(모션) 상태
 
 ```C++
 if (robot_state == 1) {
@@ -265,8 +265,8 @@ if (robot_state == 1) {
 
 #### 21. <span style="color:purple">int</span> information_chunk_1
 
-Information chunk to deliver various state information (power and others)<br>
-It consists of a combination of bits.
+전원 등 다양한 상태 정보를 전달하는 정보 청크입니다.<br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (information_chunk_1 >> 0) & 0b01 = Control Box’s 48V input state
@@ -296,11 +296,11 @@ It consists of a combination of bits.
 
 #### 22. <span style="color:purple">float</span> reserved_1[6]
 
-Reserved / Not used
+사용됨 / 미사용
 
 #### 23. <span style="color:purple">int</span> jnt_info[6]
 
-Basic state of each joint.
+각 관절의 기본 상태
 
 > 0 = Base<br>
 > 1 = Shoulder<br>
@@ -309,7 +309,7 @@ Basic state of each joint.
 > 4 = Wrist 2<br>
 > 5 = Wrist 3
 
-Each int (4byte) consists of a combination of bits.
+각 int형(4바이트)은 비트들의 조합으로 구성되어 있습니다.
 
 ```C++
 (jnt_info[#] >> 0) & 0b01 = Joint #’s FET state
@@ -333,7 +333,7 @@ Each int (4byte) consists of a combination of bits.
 
 **bits 16 ~ 31 are reserved.**
 
-Example :
+예제 :
 
 ```
 In position control mode: RUN = 1 / MODE = 0
@@ -342,15 +342,15 @@ In direct teaching (current control mode): RUN = 0 / MODE = 1
 
 #### 24. <span style="color:purple">int</span> collision_detect_onoff
 
-Out collision detection On/Off State
+외부 충돌 감지 On/Off 상태
 
 > 0 = Off<br>
 > 1 = On
 
 #### 25. <span style="color:purple">int</span> is_free_drive_mode
 
-Free-drive (Gravity-compensation) On/Off State<br>
-It consists of a combination of bits.
+프리드라이브(중력 보상) On/Off 상태<br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (is_free_drive_mode & 0b11) = Free Drive (Direct Teaching) On/Off 1 or 0
@@ -358,8 +358,8 @@ It consists of a combination of bits.
 
 #### 26. <span style="color:purple">int</span> real_vs_simulation_mode
 
-Mode of operation: Simulation mode=1 / Real Robot mode=0<br>
-It consists of a combination of bits.
+운영 모드: 시뮬레이션 모드 = 1 / 실제 로봇 모드 = 0 <br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (real_vs_simulation_mode & 0b1111) = Real vs Simulation : Simulation = 1, Real Robot = 0
@@ -367,7 +367,7 @@ It consists of a combination of bits.
 
 #### 27. <span style="color:purple">int</span> init_state_info
 
-It consists of a combination of bits.
+비트 조합으로 구성되어 있습니다.
 
 (First 6 bits: init_state_info & 0b111111)<br>
 Robot arm activation (Initialization) stage info (0 -> 6)
@@ -382,22 +382,24 @@ Robot arm activation (Initialization) stage info (0 -> 6)
 
 #### 28. <span style="color:purple">int</span> init_error **<span style="color:red">(Not for user)</span>**
 
-Error code during the arm activation (return value for UI)<br>
-It consists of a combination of bits.
+로봇 팔 활성화(초기화) 중 발생한 에러 코드 (UI에 반환되는 값) <br>
+비트 조합으로 구성되어 있습니다.
 
 (First 12 bits: init_error & 0b111111111111)
 
 #### 29. <span style="color:purple">float</span> tfb_analog_in[2]
 
-Robot-Tool-Flange analog input measurement information of each channel (unit: Voltage)
+로봇 툴 플랜지 아날로그 입력 각 채널의 측정 정보 (단위: 전압)
 
 > Channel number: 0 ~ 1
 
 #### 30. <span style="color:purple">int</span> tfb_digital_in[2]
 
-Robot-Tool-Flange digital input measurement information of each channel (value: 0 or 1)<br>
-Channel number: 0~1<br>
-It consists of a combination of bits.
+로봇 툴 플랜지 디지털 입력 각 채널의 측정 정보 (값: 0 또는 1) <br>
+채널 번호: 0~1 <br>
+비트 조합으로 구성되어 있습니다. <br>
+
+
 
 ```C++
 (tfb_digital_in[#] & 0b11) = Tool Flange Digital Input # Information
@@ -405,9 +407,9 @@ It consists of a combination of bits.
 
 #### 31. <span style="color:purple">int</span> tfb_digital_out[2]
 
-Robot-Tool-Flange digital output information of each channel (value: 0 or 1)<br>
-Channel number: 0~1<br>
-It consists of a combination of bits.
+로봇 툴 플랜지 디지털 출력 각 채널의 정보 (값: 0 또는 1) <br>
+채널 번호: 0~1 <br>
+비트 조합으로 구성되어 있습니다. <br>
 
 ```C++
 (tfb_digital_out[#] & 0b11) = Tool Flange Digital Output # Information
@@ -415,16 +417,16 @@ It consists of a combination of bits.
 
 #### 32. <span style="color:purple">float</span> tfb_voltage_out
 
-Robot-Tool-Flage output voltage level (unit: Voltage)
+로봇 툴 플랜지 출력 전압 레벨 (단위: 전압)
 
 #### 33. <span style="color:purple">int</span> op_stat_collisioin_occur
 
-Whether out-collision is detected (0 or 1)<br>
-※ lower 2bits are valid
+외부 충돌 감지 여부 (값: 0 또는 1) <br>
+※ 하위 2비트만 유효합니다.
 
 #### 34. <span style="color:purple">int</span> op_stat_sos_flag
 
-Robot Arm device error code during operation.
+로봇 팔 동작 중 발생한 디바이스 오류 코드
 
 > 0 = None<br>
 > 1 = Encoder err (PVL)<br>
@@ -440,12 +442,12 @@ Robot Arm device error code during operation.
 > 11 = Temperature err<br>
 > 12 = Speed over err
 
-※ lower 6bits are valid
+※ 하위 6비트만 유효합니다.
 
 #### 35. <span style="color:purple">int</span> op_stat_self_collision
 
-Whether self-collision is detected (0 or 1)<br>
-It consists of a combination of bits.
+자체 충돌(Self-Collision) 감지 여부 (값: 0 또는 1) <br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (op_stat_self_collsion & 0b11) = Whether self-collision is detected (0 or 1)
@@ -455,15 +457,15 @@ It consists of a combination of bits.
                                     3 : Out-Collision caused by Gyro sensor
 ```
 
-\*\*other 28 bits: control box time zone info
+\*\*나머지 28비트: 제어박스의 시간대(Time Zone) 정보
 
 #### 36. <span style="color:purple">int</span> op_stat_soft_estop_occur
 
-Pause state flag (0 or 1)
+일시 정지 상태 플래그 (값: 0 또는 1)
 
 #### 37. <span style="color:purple">int</span> op_stat_ems_flag
 
-Software (kinematics) emergency stop situation
+소프트웨어(기구학) 기반 비상 정지 상황
 
 > 0 = None<br>
 > 1 = Arm Stretch<br>
@@ -471,12 +473,12 @@ Software (kinematics) emergency stop situation
 > 3 = Joint Limit<br>
 > 4 = Un-solvable
 
-※ lower 6bits are valid
+※ 하위 6비트만 유효합니다.
 
 #### 38. <span style="color:purple">int</span> information_chunk_2
 
-Information chunk to deliver various state information.<br>
-It consists of a combination of bits.
+다양한 상태 정보를 전달하는 정보 청크입니다. <br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (information_chunk_2 >> 0) & 0b11 = Config digital input 16 (0 or 1) (Not for user)
@@ -488,8 +490,8 @@ It consists of a combination of bits.
 
 #### 39. <span style="color:purple">int</span> information_chunk_3
 
-Information chunk to deliver various state information.<br>
-It consists of a combination of bits.
+다양한 상태 정보를 전달하는 정보 블록입니다. <br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (information_chunk_3 >> 0) & 0b11 = Config digital input 17 (0 or 1) (Not for user)
@@ -504,13 +506,13 @@ It consists of a combination of bits.
 
 #### 40. <span style="color:purple">int</span> inbox_trap_flag[2]
 
-Whether or not detected by the Inbox # check-function. (\# = In Box number: 0 or 1)
+Inbox # 확인 기능에 의해 감지되었는지 여부 (\# = In Box number: 0 or 1)
 
-※ lower 4bits are valid
+※ 하위 4비트만 유효합니다.
 
 #### 41. <span style="color:purple">int</span> inbox_check_mode[2]
 
-Check-function mode of Inbox #. (\# = In Box number: 0 or 1)
+Inbox #의 확인 기능 모드 (\# = In Box number: 0 or 1)
 
 > 0 = None<br>
 > 1 = Check Tool Flange center<br>
@@ -518,19 +520,19 @@ Check-function mode of Inbox #. (\# = In Box number: 0 or 1)
 > 3 = Check Tool Box<br>
 > 4 = Check all
 
-※ lower 4bits are valid
+※ 하위 4비트만 유효합니다.
 
 #### 42. <span style="color:purple">float</span> eft_fx, eft_fy, eft_fz, eft_mx, eft_my, eft_mz
 
-External F/T (force/torque) sensor value<br>
+외부 F/T (force/torque) 센서 값<br>
 
 > Fx, Fy, Fz (unit: N)<br>
 > Mx, My, Mz (unit: Nm)
 
 #### 43. <span style="color:purple">int</span> information_chunk_4
 
-Information chunk to deliver various state information.<br>
-It consists of a combination of bits.
+다양한 상태 정보를 전달하는 정보 블록입니다.<br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (information_chunk_4 >> 0) & 0b11 = No-Arc Function On/Off (0 or 1)
@@ -549,20 +551,20 @@ It consists of a combination of bits.
 
 #### 44. <span style="color:purple">float</span> extend_io1_analog_in[4]
 
-Extended I/O board analog input measurement information of each channel (unit: Voltage)
+확장 I/O 보드의 채널별 아날로그 입력 측정 정보 (단위: 전압)
 
 > Channel number: 0 ~ 3
 
 #### 45. <span style="color:purple">float</span> extend_io1_analog_out[4]
 
-Extended I/O board analog output information of each channel (unit: Voltage)
+확장 I/O 보드의 채널별 아날로그 출력 정보 (단위: 전압)
 
 > Channel number: 0 ~ 3
 
 #### 46. <span style="color:purple">unsigned int</span> extend_io1_digital_info
 
-Extended I/O board digital input/output information<br>
-It consists of a combination of bits.
+확장 I/O 보드의 디지털 입출력 정보<br>
+비트 조합으로 구성되어 있습니다.
 
 ```C++
 (extend_io1_digital_info >> 0) & 0b01 = Extend I/O digital input # 0
@@ -579,10 +581,10 @@ It consists of a combination of bits.
 
 #### 47. <span style="color:purple">float</span> aa_joint_ref[6]
 
-Reference angle of each external-joint (auxiliary joint). (unit: degree)
+각 외부 관절(보조 관절)의 기준 각도 (단위: 도)
 
 > Channel number: 0 ~ 5
 
 #### 48. <span style="color:purple">unsigned int</span> safety_board_stat_info **<span style="color:red">(Not for user)</span>**
 
-Data chunk about the control box safety board
+제어박스의 세이프티 보드에 관한 데이터 블록

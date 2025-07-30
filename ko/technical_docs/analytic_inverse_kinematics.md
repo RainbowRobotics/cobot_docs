@@ -7,7 +7,8 @@ outline: deep
 
 ### Analytic Inverse Kinematics
 
-Inverse kinematics described in this technical paper uses an analytic method and is calculated based on standard DH parameters.
+이 기술 문서에서 설명하는 역기구학(Inverse Kinematics)은 해석적 방법(Analytic Method)을 사용하며,
+표준 DH 파라미터(Standard Denavit-Hartenberg Parameters)를 기반으로 계산됩니다.
 
 #### Standard D-H Parameter
 

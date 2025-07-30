@@ -176,8 +176,6 @@ const technicalDocsSidebarList: object[] = [
       { text: "System Variables", link: "/technical_docs/system_variables" },
       { text: "Start User Guide", link: "/technical_docs/start_user_guide" },
       { text: "Software Update", link: "/technical_docs/software_update" },
-      { text: "Control-Box files Back-up", link: "/technical_docs/back_up_control_box_file" },
-      { text: "Log Back-up", link: "/technical_docs/back_up_log" },
       { text: "D.H. Parameters", link: "/technical_docs/dh_parameters" },
       { text: "Analytic Inverse Kinematics", link: "/technical_docs/analytic_inverse_kinematics" },
     ],
@@ -216,7 +214,8 @@ const technicalDocsSidebarList: object[] = [
       { text: "CB Digital I/O Functions", link: "/technical_docs/digital_io_function" },
       { text: "Set Hand Controller Function", link: "/technical_docs/set_hc_function" },
       { text: "Set Contol Box Time Zone", link: "/technical_docs/set_cb_time_zone" },
-      { text: "Backup Control Box Files", link: "/technical_docs/backup_cb_files" },
+      { text: "Control-Box files Back-up", link: "/technical_docs/back_up_control_box_file" },
+      { text: "Log Back-up", link: "/technical_docs/back_up_log" },
     ],
   },
   {
