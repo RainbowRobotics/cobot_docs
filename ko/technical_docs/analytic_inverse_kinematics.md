@@ -161,7 +161,7 @@ outline: deep
 ![missing](/technical_docs/common/analytic_inverse_kinematics/11.png)
 ![missing](/technical_docs/common/analytic_inverse_kinematics/12.png)
 
-Because coordinate system 5 and coordinate system 6 differ by 90 degrees,
+좌표계 5와 좌표계 6은 90도 차이가 있기 때문에,
 
 ![missing](/technical_docs/common/analytic_inverse_kinematics/13.png)
 

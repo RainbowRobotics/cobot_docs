@@ -108,7 +108,7 @@ typedef union{
 
 #### 1. <span style="color:purple">char</span> header[4]
 
-이 데이터 구조의 헤더더
+이 데이터 구조의 헤더
 
 ```C++
 header[0] = 0x24

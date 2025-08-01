@@ -5,6 +5,8 @@ outline: deep
 
 # Set-up (Program Table)
 
+### 기능 설명
+
 각각의 디지털 입력을 통해 불러올 프로그램을 설정합니다.
 
 ![missing](/manual/ko/setup/table1.png)
@@ -20,3 +22,25 @@ outline: deep
 아래 그림을 통해 두 기능의 차이점을 확인할 수 있습니다.
 
 ![missing](/manual/ko/setup/15-2.png)
+
+### 프로그램 테이블 설정 방법
+
+![missing](/technical_docs/common/program_table/1.png)
+
+1. 옵션으로는 프로그램파일을 로드만 시도할지, 로드하고 1번 실행 시킬지, 로드하고 계속 반복 실행 시킬지를 선택할 수 있습니다.
+
+![missing](/technical_docs/common/program_table/2.png)
+
+![missing](/technical_docs/common/program_table/3.png)
+
+2. 옵션 선택 후에, 실행되기를 원하는 .wsl 파일을 선택합니다. 원하는 번호에 원하는 프로그램 파일을 등록해줍니다. 
+
+### Digital Input 설정
+
+![missing](/technical_docs/common/program_table/4.png)
+
+3. 0번에 프로그램 테이블을 등록해주었다면, Set-up > I/O1 의 Din 0 에 위 와 같은 기능 목록을 선택해줍니다. 
+
+![missing](/technical_docs/common/program_table/5.png)
+
+4. Digital 0 번에 할당해준 프로그램 테이블 0번의 “my_project” 가 Digital 0 번의 Falling Edge 순간에 실행 됩니다. 

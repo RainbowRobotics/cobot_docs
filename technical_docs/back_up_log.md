@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# How To Log Data Back-up
+# How To Log Data Back-up v7.7
 
 ### Log Data extraction
 
@@ -17,13 +17,13 @@ If connected via TCP/IP, **only one day’s** worth of log data is available.
 To retrieve the log data, go to Set-up > Log/Utility > Log and click the Get button.
 ![missing](/technical_docs/common/backup_log/1_2.png)
 
-After clicking the Get button, if a popup window like the one shown on the left appears, the log data has been successfully retrieved.
+After clicking the Get button, if a popup window like the one shown on the bottom appears, the log data has been successfully retrieved.
 ![missing](/technical_docs/common/backup_log/3.png)
 
-By clicking the Load button below Get, you can view up to 10 days of log data, as shown in the image on the right.
+By clicking the Load button below Get, you can view up to 10 days of log data, as shown in the image on the bottom.
 ![missing](/technical_docs/common/backup_log/1_4.png)
 
-By selecting the desired date, you can view the log data for that day, as shown in the image on the left.
+By selecting the desired date, you can view the log data for that day, as shown in the image on the bottom.
 ![missing](/technical_docs/common/backup_log/1_5.png)
 
 On the right, you can selectively extract and view only the desired items by using the All ~ User options.

@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# 로그 데이터 백업하기
+# 로그 데이터 백업하기 v7.7
 
 ### 로그 데이터
 
@@ -17,19 +17,19 @@ outline: deep
 Set-up > Log/Utility > Log 에서 Get 을 클릭합니다. 
 ![missing](/technical_docs/common/backup_log/1_2.png)
 
-Get을 클릭한 후, 좌측 사진과 같은 팝업이 나타났다면 성공적으로 로그를 불러올 수 있습니다. 
+Get을 클릭한 후, 아래 사진과 같은 팝업이 나타났다면 성공적으로 로그를 불러올 수 있습니다. 
 ![missing](/technical_docs/common/backup_log/3.png)
 
-Get 아래에 Load 를 클릭하면, 우측 사진과 같이 최대 10일 가량의 로그 데이터를 확인할 수 있습니다. 
+Get 아래에 Load 를 클릭하면, 아래 사진과 같이 최대 10일 가량의 로그 데이터를 확인할 수 있습니다. 
 ![missing](/technical_docs/common/backup_log/1_4.png)
 
-확인하고 싶은 일자의 로그를 선택하면, 좌측 사진과 같이 로그를 확인 할 수 있습니다. 
+확인하고 싶은 일자의 로그를 선택하면, 아래 사진과 같이 로그를 확인 할 수 있습니다. 
 ![missing](/technical_docs/common/backup_log/1_5.png)
 
 우측 All~User 까지 원하는 부분만을 추출하여 확인 할 수도 있습니다. 
 ![missing](/technical_docs/common/backup_log/1_6.png)
 
-우측의 Mail 버튼을 클릭하고 메일 제목을 입력한 후, 하단의 Send를 클릭하면 기술지원팀 메일로 로그가 손쉽게 전송 됩니다. 단, 태블릿에 **인터넷 연결**이 되어 있어야 합니다. 
+아래 사진 우측의 Mail 버튼을 클릭하고 메일 제목을 입력한 후, 하단의 Send를 클릭하면 기술지원팀 메일로 로그가 손쉽게 전송 됩니다. 단, 태블릿에 **인터넷 연결**이 되어 있어야 합니다. 
 ![missing](/technical_docs/common/backup_log/1_7.png)
 
 ### 로그 데이터 파일 위치
