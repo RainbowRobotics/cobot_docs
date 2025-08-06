@@ -27,7 +27,7 @@ outline: deep
 
 ![missing](/technical_docs/common/program_table/1.png)
 
-1. 옵션으로는 프로그램파일을 로드만 시도할지, 로드하고 1번 실행 시킬지, 로드하고 계속 반복 실행 시킬지를 선택할 수 있습니다.
+1. 옵션으로는 프로그램 파일을 로드만 수행할지, 로드 후 한 번만 실행할지, 또는 로드 후 반복 실행할지를 선택할 수 있습니다.
 
 ![missing](/technical_docs/common/program_table/2.png)
 
