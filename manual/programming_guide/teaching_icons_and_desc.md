@@ -2056,6 +2056,5 @@ The difference between weaving and weaving 2 is that in the case of weaving, the
 ![missing](/manual/en/programming_guide/icons/48.png)
 
 Touch sensing is intended to utilize welding applications. Detects the movement of the base material and reflects the direction of movement of the base material and is used for welding.<br>
-A detailed description of this feature is provided in a separate manual.
 
 ![missing](/manual/en/programming_guide/4.teaching_icons_detail/172.png)
