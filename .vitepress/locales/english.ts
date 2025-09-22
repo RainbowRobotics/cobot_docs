@@ -287,7 +287,10 @@ const exampleSidebarList: object[] = [
   { text: "2013. How to read CSV FILE", link: "/example_manual/2000/how_to_read_csv_file" },
   { text: "2014. How to Use SW PLC", link: "/example_manual/2000/how_to_use_sw_plc" },
   { text: "2015. How to Use Ui Script", link: "/example_manual/2000/how_to_use_ui_script" },
-    { text: "2016. How to Set Tool TCP", link: "/example_manual/2000/how_to_set_tool_tcp" },
+  { text: "2016. How to Set Tool TCP", link: "/example_manual/2000/how_to_set_tool_tcp" },
+  { text: "2017. How to Use Auto Orientation Alignment Button", link: "/example_manual/2000/how_to_use_auto_orientation_alignment_button" },
+  { text: "2018. How to Set User Coordinate Shift", link: "/example_manual/2000/how_to_set_coordinate_shift" },
+
   // 3000
   { text: "3001. Imaginary Conveyor", link: "/example_manual/3000/how_to_use_imaginary_conveyor" },
   { text: "3002. Force Control Example", link: "/example_manual/3000/how_to_use_force_control" },
