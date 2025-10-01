@@ -2041,7 +2041,7 @@ Simply select and enter the desired weaving shape and weaving options.
 
 The left side of the figure below is for normal operation only. If this motion is put as a sub-item of weaving, TCP trajectory reflecting the weaving trajectory is drawn (in the example on the right, in the case of triangle wave weaving).
 
-![missing](/manual/en/programming_guide/4.teaching_icons_detail/170.png)
+![missing](/manual/en/programming_guide/4.teaching_icons_detail/1701.png)
 
 ### 45. Weaving2 Function
 
