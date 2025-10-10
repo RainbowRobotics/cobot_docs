@@ -285,7 +285,8 @@ const exampleSidebarList: object[] = [
   { text: "2016. How to Set Tool TCP", link: "/ko/example_manual/2000/how_to_set_tool_tcp" },
   { text: "2017. Auto Alignment Button", link: "/ko/example_manual/2000/how_to_use_auto_orientation_alignment_button" },
   { text: "2018. User Coordinate Shift", link: "/ko/example_manual/2000/how_to_set_coordinate_shift" },
-
+  { text: "2019. How to Use DWORD", link: "/ko/example_manual/2000/how_to_use_dword" },
+  
 
   // 3000
   { text: "3001. Imaginary Conveyor", link: "/ko/example_manual/3000/how_to_use_imaginary_conveyor" },
