@@ -291,6 +291,7 @@ const exampleSidebarList: object[] = [
   { text: "2017. Auto Alignment Button", link: "/example_manual/2000/how_to_use_auto_orientation_alignment_button" },
   { text: "2018. User Coordinate Shift", link: "/example_manual/2000/how_to_set_coordinate_shift" },
   { text: "2019. How to Use DWORD", link: "/example_manual/2000/how_to_use_dword" },
+  { text: "2020. Joint Torque Bound", link: "/example_manual/2000/how_to_use_joint_torque_bound" },
 
   // 3000
   { text: "3001. Imaginary Conveyor", link: "/example_manual/3000/how_to_use_imaginary_conveyor" },
@@ -312,6 +313,8 @@ const exampleSidebarList: object[] = [
   { text: "3011. RS232", link: "/example_manual/3000/how_to_use_rs232" },
   { text: "3012. Allen-Bradley PLC EIP", link: "/example_manual/3000/how_to_use_allen_bradley" },
   { text: "3013. KEYENCE MC Protocol", link: "/example_manual/3000/how_to_use_keyence_mc_protocol" },
+  { text: "3012. Touch Sensing", link: "/example_manual/3000/how_to_use_touch_sensing" },
+  
   // 5000
   { text: "5001. Bit Comb. Program Op.", link: "/example_manual/5000/bit_comb_program_operation" },
   { text: "5002. Palletizing (Pattern)", link: "/example_manual/5000/palletizing_pattern" },
