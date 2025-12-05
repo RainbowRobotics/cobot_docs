@@ -313,7 +313,8 @@ const exampleSidebarList: object[] = [
   { text: "3011. RS232", link: "/example_manual/3000/how_to_use_rs232" },
   { text: "3012. Allen-Bradley PLC EIP", link: "/example_manual/3000/how_to_use_allen_bradley" },
   { text: "3013. KEYENCE MC Protocol", link: "/example_manual/3000/how_to_use_keyence_mc_protocol" },
-  { text: "3012. Touch Sensing", link: "/example_manual/3000/how_to_use_touch_sensing" },
+  { text: "3014. Touch Sensing", link: "/example_manual/3000/how_to_use_touch_sensing" },
+  { text: "3015. Teleoperation", link: "/example_manual/3000/how_to_use_teleoperation" },
   
   // 5000
   { text: "5001. Bit Comb. Program Op.", link: "/example_manual/5000/bit_comb_program_operation" },
@@ -326,6 +327,8 @@ const exampleSidebarList: object[] = [
   { text: "5008. Gripper (Robotiq)", link: "/example_manual/5000/robotiq_gripper" },
   { text: "5009. Analog Welding Machine", link: "/example_manual/5000/analog_welding_machine" },
   { text: "5010. Pattern (Advanced)", link: "/example_manual/5000/pattern_advanced" },
+  { text: "5011. Sick Sensor", link: "/example_manual/5000/sick_sensor" },
+  { text: "5012. ArcSensing", link: "/example_manual/5000/arc_sensing" },
   {
     text: "Others",
     collapsed: false,

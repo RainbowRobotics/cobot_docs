@@ -20,7 +20,7 @@ You can set the basic environment for the robot arm.
    - **Pause Deceleration Amount**: If a pause is made during program playback, it will stop after a certain period of playback. This time can be set step by step.<br>
    - **Droop Compensation**: If an object is attached to the tool flange and the position value droops downwards, this function compensates for the droop.<br>
    - **Control Box Robot Model**: Displays the currently stored robot model in the control box.<br>
-4. Set the installation angle of the robot. If there is a matching installation angle among the example images provided, click on the corresponding image. To enter it manually, input the direction vector of gravitational acceleration based on the Global coordinate system.
+4. Set the installation angle of the robot. To enter it manually, input the direction vector of gravitational acceleration based on the Global coordinate system.
 5. - **Tool Flange Default Output Voltage**: Select the default output voltage for the tool flange (can choose from 0V, 12V, or 24V).<br>
    - **Tool Flange Direct Teaching Button**: Choose whether to use the direct teaching button on the tool flange.<br>
    - **Tool Flange Vibration Sensor**: Choose to turn the vibration detection on or off.<br>
