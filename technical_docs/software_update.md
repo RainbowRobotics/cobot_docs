@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# RB Series Software Update v2.1
+# RB Series Software Update v8.0
 
 ### How to Update Software
 
@@ -78,11 +78,11 @@ Navigate to the system software update path as shown below.
   <p>UI Home → Setup → System Tab</p>
 </div>
 
-![missing](/technical_docs/common/software_update/5-1.png)
+![missing](/technical_docs/common/software_update/8-1.png)
 
-In the [Software Update] section on the right, click the Activate checkbox.
+In the [Software Update] section on the left, click the Activate checkbox.
 
-![missing](/technical_docs/common/software_update/5-2.png)
+![missing](/technical_docs/common/software_update/8-2.png)
 
 #### 6. Progress Control-Box System Software Update
 

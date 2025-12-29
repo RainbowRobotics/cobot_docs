@@ -5,6 +5,9 @@ outline: deep
 
 # UI Program usage via LAN / Wireless v2.1
 
+:::tip
+(This page applies only to legacy versions of RB UI.<br>For the latest RB UI versions, please refer to **General → Software Update**. <br>In addition, **RB_Driver** is not required in the latest RB UI versions.)
+:::
 ### 1. Update the software-s (UI and ControlBox software) to the latest version
 
 <div class="warning custom-block">

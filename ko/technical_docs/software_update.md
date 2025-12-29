@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# RB 시리즈 소프트웨어 업데이트 v2.1
+# RB 시리즈 소프트웨어 업데이트 v8.0
 
 ### 소프트웨어 업데이트 방법
 
@@ -82,11 +82,11 @@ UI 프로그램 실행 후, 태블릿과 제어박스 간 통신을 연결하십
   <p>UI Home → Setup → System </p>
 </div>
 
-![missing](/technical_docs/common/software_update/5-1.png)
+![missing](/technical_docs/common/software_update/8-1.png)
 
-우측의 [소프트웨어 업데이트] 섹션에서 Activate 체크박스를 클릭하십시오.
+좌측의 [소프트웨어 업데이트] 섹션에서 Activate 체크박스를 클릭하십시오.
 
-![missing](/technical_docs/common/software_update/5-2.png)
+![missing](/technical_docs/common/software_update/8-2.png)
 
 #### 6. 제어박스 시스템 소프트웨어 업데이트 진행
 
