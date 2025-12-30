@@ -5,6 +5,15 @@ outline: deep
 
 # RB 시리즈 소프트웨어 업데이트 v8.0
 
+:::tip
+RB UI와 제어박스의 소프트웨어 버전이 서로 다른 경우,<br> 
+UI와 제어박스를 연결하는 과정에서 아래와 같은 알람 창이 표시될 수 있습니다. <br>
+해당 알람은 로봇의 정상적인 동작에는 영향을 미치지 않으나, <br>
+알람 표시로 인한 불편을 방지하기 위해 소프트웨어 업데이트를 권장드립니다.
+:::
+![missing](/technical_docs/common/tcp_wireless/swup.jpg)
+
+
 ### 소프트웨어 업데이트 방법
 
 <div class="warning custom-block">
@@ -92,12 +101,21 @@ UI 프로그램 실행 후, 태블릿과 제어박스 간 통신을 연결하십
 
 “Update” 버튼이 표시되며, 이 버튼을 클릭하면 팝업 창이 열립니다.
 
-![missing](/technical_docs/common/software_update/6.png)
+가장 상단 **소프트웨어 업데이트 이후, 시스템 재부팅**를 클릭하세요.
 
-- 제어박스 소프트웨어를 업데이트하려면 “OK” 버튼을 누르십시오.
-- “OK” 버튼을 클릭한 후 업데이트가 정상적으로 완료되면, 약 5~15초 이내에 제어박스(컨트롤러)의 PC가 자동으로 재시작됩니다.
+![missing](/technical_docs/common/tcp_wireless/sw0.jpg)
+
+제어박스 소프트웨어를 업데이트하려면 “OK” 버튼을 클릭하세요.
+
+![missing](/technical_docs/common/tcp_wireless/sw1.jpg)
+
+“OK” 버튼을 클릭한 후 업데이트가 정상적으로 완료되면, 약 5~15초 이내에 제어박스(컨트롤러)의 PC가 자동으로 재시작됩니다.
+
+![missing](/technical_docs/common/tcp_wireless/sw02.jpg)
+
+
 - 재시작 과정 중에는 제어박스 LCD에 “Please Wait…” 문구가 표시됩니다. 이는 제어박스가 재부팅 중임을 나타냅니다.
-- 재부팅이 완료되면, 제어박스 LCD에 “Normal Operation” 문구(또는 기타 메시지)가 표시됩니다.
+- 재부팅이 완료되면, 제어박스 LCD에 “USB CONNECTED” 문구(또는 기타 메시지)가 표시됩니다.
 
 #### 7. 소프트웨어 업데이트 확인
 
@@ -112,7 +130,7 @@ UI 태블릿과 제어박스를 다시 연결하십시오.
 
 UI 홈 화면으로 돌아가면, 소프트웨어 버전이 우측 상단(또는 좌측 하단)에 표시됩니다. 정상적으로 업데이트되었는지 해당 버전 정보를 확인하십시오.
 
-![missing](/technical_docs/common/software_update/7_1.png)
+![missing](/technical_docs/common/tcp_wireless/swf.png)
 
 <span style="color:red">업데이트가 정상적으로 완료되면, <br>
-<b>System Version: 25062404 [7.6.4], Ui Version: 7.6.4</b>  버전이 나타나게 됩니다.</span>
+<b>System Version: 25122404 [8.0.4], Ui Version: 8.0.4</b>  버전이 나타나게 됩니다.</span>

@@ -5,6 +5,14 @@ outline: deep
 
 # RB Series Software Update v8.0
 
+:::tip
+If the software versions of the RB UI and the control box are different,<br> 
+an alarm window may appear during the process of connecting the UI to the control box, as shown below.<br>
+This alarm does not affect the normal operation of the robot; however, <br>
+to avoid any inconvenience caused by the alarm display, we recommend performing a software update.
+:::
+![missing](/technical_docs/common/tcp_wireless/swup.jpg)
+
 ### How to Update Software
 
 <div class="warning custom-block">
@@ -88,10 +96,18 @@ In the [Software Update] section on the left, click the Activate checkbox.
 
 The Update button will appear and click this button to open a popup window.
 
-![missing](/technical_docs/common/software_update/6.png)
+At the top of the screen, click **System reboot after software update.**
 
-- Press “OK” button to update the control box software.
-- If the update is completed normally after clicking the OK button, the PC of the control box (controller) will automatically restart within 5 ~ 15 seconds.
+![missing](/technical_docs/common/tcp_wireless/sw0.jpg)
+
+Press “OK” button to update the control box software.
+
+![missing](/technical_docs/common/tcp_wireless/sw1.jpg)
+
+If the update is completed normally after clicking the OK button, the PC of the control box (controller) will automatically restart within 5 ~ 15 seconds.
+
+![missing](/technical_docs/common/tcp_wireless/sw02.jpg)
+
 - During the restart process, “Please Wait…” is displayed on the LCD of the control box. This indicates that the control box is rebooting.
 - After the reboot is completed, “Normal Operation” (or other messages may appear) is displayed on the LCD of the control box.
 
@@ -108,7 +124,7 @@ Reconnect the UI tablet and control box.
 
 When you go back to the home screen of the UI, the software version is displayed on the upper right (or lower left). Check if it is updated to the correct version.
 
-![missing](/technical_docs/common/software_update/7.png)
+![missing](/technical_docs/common/tcp_wireless/swf.png)
 
 <span style="color:red">When the update is completed normally, this update<br>
-<b>System Version: 22012803, Ui Version: 4.1.3</b> should be displayed</span>
+<b>System Version: 25122404 [8.0.4], Ui Version: 8.0.4</b> should be displayed</span>
