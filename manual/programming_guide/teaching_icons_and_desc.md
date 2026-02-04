@@ -1013,7 +1013,7 @@ As shown above, the Thread Function is configured in parallel with the main prog
 
 - Threads do not repeat automatically and will end when the main program ends – even if the thread has not completed. To implement a Repeat Function, highlight a command within the Thread program tree and press the Repeat icon.<br>
   To implement a thread that repeats every second, use the Thread icon, use the Repeat Function within that thread, then place a one second Wait Function within the Repeat.
-- The Thread Function will support only up to 3 different threads.
+- The Thread Function will support only up to 4 different threads.
 - Thread functionality works only in the current running program. If a subprogram called through a Sub.P function uses a thread, it will not work properly.
 
 Thread types are as follows:
