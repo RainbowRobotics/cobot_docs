@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/EYn9PL_70OBCrSmPxo5g0dIBX1QHsMK8K8NVTcL30Z8w0w?e=QlKqz8&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQCh-zHGihoBSLnEo8K8tsZGATUzevEShz8s-zIL9T40Mq8?e=BONwyQ&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# ls xgt server
 \# ls xgt server example manual

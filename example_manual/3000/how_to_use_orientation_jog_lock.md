@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/ER-6EsWl7RpBlgbr8NfGegEBefb_1XCgTnHpjVkR4HabeA?e=dbQagA&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQBylIUUDBwRTqe1VtanY1hEAQdVVp_QYVBDO8A44-sq3uo?e=oyDWiG&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# orientation jog lock
 \# orientation jog lock example manual

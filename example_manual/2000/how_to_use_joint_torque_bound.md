@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/EfEFNOjA9IRIpi8nV6PaI4cBgeaKzXRX7B6YpSRQ4Jv7jg?e=JfaDg8&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQAcX9rfhkRBQLDuk-3xsKv5AacB7weEKwwYWZFgCrsWxaM?e=Z7gWcZ&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# Joint Torque 
 \# Joint Torque Bound manual

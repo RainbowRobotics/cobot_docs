@@ -15,7 +15,7 @@ hero:
       link: /ko/manual/product_introduction/cobot_system
     - theme: alt
       text: 다운로드
-      link: https://rainbowco-my.sharepoint.com/:f:/g/personal/hyoin_rainbow-robotics_com/EouCbaCEzctFjxPyLZg_mUUBOVXOwxU4ab1s4BE30c2xog
+      link: https://rainbowco-my.sharepoint.com/:f:/g/personal/support_rainbow-robotics_com/IgAaMLHQc3cgTb_VpKGSZfFnAZBYocOwaENpx5MK5kEUfVc?e=PWc2qF
     - theme: alt
       text: 소개 영상 ⧉
       link: https://www.youtube.com/watch?v=FZlRxR2FKT8

@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/EfRXLO-mcl9Gj1wJTh4SLycBOe52USleLypaYXlXdXQRuQ?e=6uZNrS&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQCKFhMs0HixTLPJZOLuseJ4AVBLdJvy8BYnuYwEzgIsseo?e=8025Nm&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# gripper
 \# On-Robot 2FG7

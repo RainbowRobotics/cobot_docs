@@ -395,7 +395,7 @@ export default {
       { text: "Video", link: "/study_video/ui_screen_layout", activeMatch: "/study_video/" },
       {
         text: "Download",
-        link: "https://rainbowco-my.sharepoint.com/:f:/g/personal/hyoin_rainbow-robotics_com/EouCbaCEzctFjxPyLZg_mUUBOVXOwxU4ab1s4BE30c2xog",
+        link: "https://rainbowco-my.sharepoint.com/:f:/g/personal/support_rainbow-robotics_com/IgAaMLHQc3cgTb_VpKGSZfFnAZBYocOwaENpx5MK5kEUfVc?e=PWc2qF",
       },
       { text: "Company", link: "https://www.rainbow-robotics.com" },
     ],

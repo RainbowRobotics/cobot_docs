@@ -25,7 +25,7 @@ outline: deep
 5. 제어 박스가 최초 부팅 직후, 제어 박스의 디지털 출력 옵션을 선택합니다.<br>
    이곳에서 설정된 포트들은 프로그램 종료 동시에 해당 설정 값으로 출력을 내보냅니다.
 6. - **Just after ControlBox Boot-Up** : 제어 박스 부팅 직후   실행할 User Script를 선택합니다.<br>
-   - **Just after Activation Done** : 로봇 프로그램 종료 직후 실행할 User Script를 선택합니다.<br>
+   - **Just after Activation Done** : 로봇 활성화 직후 실행할 User Script를 선택합니다.<br>
    - **Just after Real-Mode** : 리얼모드 설정 직후 실행할 User Script를 선택합니다.<br>
 7. 변경된 세팅을 저장합니다.
 

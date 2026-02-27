@@ -26,7 +26,7 @@ Setting I/O Values to Always Execute Before/After Program Start.
 5. After the Control Box is first booted up, select the digital output options for the Control Box.<br>
    The ports configured here will output the specified values immediately after the program ends.<br>
 6. - Just after ControlBox Boot-Up: Select the User Script to run immediately after the Control Box boots up.<br>
-   - Just after Activation Done: Select the User Script to run immediately after the robot program ends. <br>
+   - Just after Activation Done: Select the User Script to run immediately after the robot activate. <br>
    - Just after Real-Mode: Select the User Script to run immediately after switching to Real Mode. <br>
 7. Save the modified settings.
    

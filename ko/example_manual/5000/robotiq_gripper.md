@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/EacshLwO4-xCtrSa_13ER2gBIkkoHEneGxRxRJUhx4F1Zw?e=P2dRIx&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQCzNL4B162dT7nx9eGyU0sKAdJmZhTVE0zQiEN7EINAX4Y?e=RJH7CG&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# gripper
 \# Robotiq Hand-E

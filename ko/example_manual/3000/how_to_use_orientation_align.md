@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/EROVczIfPP1HuQ_hGNIM-xMBoq8RZ6GWRisOWL6HxomAYQ?e=vXfFpf&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQDqlj44OJZoS62_o3466ndPAZtFwMbSP-TJPL1oF1etiEs?e=zOT6OQ&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# orientation aligning
 \# orientation aligning example manual

@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/IQCP0RgPVfTAQo2lJ1WZoTuKASnXtLYkAc95WoRIR6Ya5Lw?e=6B2y0P&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQDZHlynbvEWRrEUunLAla3QAev-n7DPS8Zo_t02HMJoQF0?e=hNNaRs&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# Teleoperation
 \# Teleoperation manual

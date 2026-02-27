@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/EZqrNBuw7t9JobiAFVW-C8sBh9i9XVXrs6OCyJ9wAtTvmA?e=J9iuoq&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQBFyWNPIYVlQ5P0tjIdRQJdAfgs8yPNCKdSwmfO0dQNciE?e=CBLshY&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# wait
 \# wait example manual

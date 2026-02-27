@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/ESjSPsqvzIVDq56riCuUCwABTNu3bzw5Mtq5mgwgoR-tyQ?e=HXcgLq&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQDE75pXw3b4QInoL3Yq6dZfAcseRpy8FMQGpXh4VVLtgUE?e=JDoC5U&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# Tool TCP
 \# Tool Setting manual

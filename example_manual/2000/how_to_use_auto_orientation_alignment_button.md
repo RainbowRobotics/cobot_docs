@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/hyoin_rainbow-robotics_com/EUJZY6Rrm9JNmXillNzn1gUBF_Kg0OeIVEogMRTyEFgQhA?e=cacGvT&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQAwl8r28ATBS4Ug7i_fZcRfAbDWF0TlGoSkMbfjrt_Pgg4?e=QXSKdR&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# Auto Orientation Alignment Button
 \# alignment button
