@@ -7,9 +7,11 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQAxIuVZGPYvS52OR6S-Mf-MAZi2582VjvzbZWAaNCcdZeE?e=RoyUpZ&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQBEQuOG2B5WR5ThPPKfMF37AafCZbIGdIAhgA9Toywk-ow?e=R6lc9q&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# speed settings
+\# 속도 설정
+\# 속도
 \# speed example manual
 \# point speed
 \# point acceleration
