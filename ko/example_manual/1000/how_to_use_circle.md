@@ -7,9 +7,10 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQAO2uH6Lx98Sp0POs5uzdrXAexLd2NAT2xHwV5ykmELsb8?e=Tianao&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQBzz076jgNRRIB6XYPjVGDcARbZOklWBKYbKdQSGKqi188?e=tKoOMn&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# move circle
+\# 원 동작
 \# move circle example manual
 \# move circle 3 points
 \# move circle axis

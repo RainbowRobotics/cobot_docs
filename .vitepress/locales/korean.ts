@@ -326,6 +326,7 @@ const exampleSidebarList: object[] = [
   { text: "5010. Pattern (Advanced)", link: "/ko/example_manual/5000/pattern_advanced" },
   { text: "5011. Sick Sensor", link: "/ko/example_manual/5000/sick_sensor" },
   { text: "5012. ArcSensing", link: "/ko/example_manual/5000/arc_sensing" },
+  { text: "5013. 3D Vision (Mech Mind)", link: "/ko/example_manual/5000/3d_vision_mechmind" },
   {
     text: "Others",
     collapsed: false,
