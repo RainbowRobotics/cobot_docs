@@ -7,9 +7,10 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQCh-zHGihoBSLnEo8K8tsZGATUzevEShz8s-zIL9T40Mq8?e=BONwyQ&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQDQQywKD6PERpmmxklBKV9cAZXC6zNSdOD6cr9WZ2Rv4gA?e=y4HgoX&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# ls xgt server
+\# ls-electric
 \# ls xgt server example manual
 \# LS-CPU
 \# interface xgt server
