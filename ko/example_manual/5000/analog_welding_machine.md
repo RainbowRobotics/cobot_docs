@@ -19,3 +19,4 @@ outline: deep
 \# weaving2
 \# arc sensing
 \# analog welding machine example
+\# 용접

@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQCzNL4B162dT7nx9eGyU0sKAdJmZhTVE0zQiEN7EINAX4Y?e=RJH7CG&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQA-T8SglUiKQKkCWJ18G9eAAVUQOV4O6XQMqSD21RcGqZI?e=myV6u7&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# gripper
 \# Robotiq Hand-E
@@ -16,3 +16,5 @@ outline: deep
 \# robotiq gripper tool flange
 \# robotiq gripper control box
 \# gripper Robotiq Hand-E example video
+\# 로보티크 
+\# 로보티크 그리퍼

@@ -17,4 +17,5 @@ outline: deep
 \# Master Robot
 \# Slave Robot
 \# Torque Limitation
-
+\# 텔레오퍼레이션
+\# 동시제어

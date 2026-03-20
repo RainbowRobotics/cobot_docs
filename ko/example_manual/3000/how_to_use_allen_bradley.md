@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQDaJ_z9jmYXRKFvcdzcxUulAcvydq1CPG9cVOQRsVFt-yU?e=1LQmWz&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQBQzzKyRaMXQYWMlB6LHSG0AWF-x5G8BrNzIN_DCBFoyMo?e=NYhSJY&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# Allen-Bradley PLC Ethernet IP
 \# Allen-Bradley PLC example manual
@@ -18,6 +18,7 @@ outline: deep
 \# RB IP address set
 \# RB Ethernet IP set
 \# Allen-Bradley PLC example video
+\# EDS
 
 ### cf. RB EDS Tags Map (I.Data)
 

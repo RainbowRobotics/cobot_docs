@@ -7,9 +7,10 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQALR4k5YKm5R6wuLKmjP4xdAZG8-oY0DX1Pgx9LLEbUJOs?e=C9LBMs&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQAV2-4sV-XxRZjESsnxv4_1AfjAc4Eyk7FbvFbRA8m2UmQ?e=iqPa8d&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# external axis
+\# 부가축
 \# external axis example manual
 \# ext.axis
 \# D8 model of RS-Automation

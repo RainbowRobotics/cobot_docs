@@ -7,7 +7,7 @@ outline: deep
 
 <br>
 
-<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQC4pKMh_cVeTodEYNdadp9FAb9VbM93__nw6-HNYgW7ELU?e=VWHgcL&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
+<iframe class="iframe-resources" src="https://rainbowco-my.sharepoint.com/:p:/g/personal/support_rainbow-robotics_com/IQBVaweQqy3wS5oeZOwV_80TAcaSi-oRxM1rQWYu_L5gI8E?e=RbgJ9R&amp;action=embedview&amp;wdbipreview=true&amp;wdAr=1.7777777777777777" frameborder="0"></iframe>
 
 \# palletizing irregular
 \# palletizing irregular example manual
@@ -15,3 +15,4 @@ outline: deep
 \# pick & place
 \# vision
 \# palletizing irregular example video
+\# 팔레타이징 불규칙 패턴
