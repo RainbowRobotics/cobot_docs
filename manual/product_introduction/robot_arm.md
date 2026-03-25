@@ -304,3 +304,21 @@ outline: deep
       <li>For pneumatic/electric cable built-in models, passing pneumatic pressure or power beyond the defined specifications may damage the hardware.</li>
     </ul>
 </div>
+
+### Robot Arm LED Status
+
+< The LED status shown in the image below indicates that the robot is in Real Robot mode.>
+
+<img src="/manual/common/product_introduction/9-1.png" />
+
+**1. When only one of the three LEDs is lit,**<br>
+it indicates that power is being supplied to the robot arm.
+
+**2. When two of the three LEDs are lit,**<br>
+it indicates that the robot arm has completed booting and is in Simulation mode.
+
+**3. When all three LEDs are illuminated,**<br>
+it indicates that the robot arm is in Real Robot mode.
+
+**4. When all three LEDs are blinking,**<br> 
+it indicates that a program is running.
