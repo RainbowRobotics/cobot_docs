@@ -294,6 +294,7 @@ const exampleSidebarList: object[] = [
   { text: "2020. Joint Torque Bound", link: "/example_manual/2000/how_to_use_joint_torque_bound" },
   { text: "2021. Input Data", link: "/example_manual/2000/how_to_use_input_data" },
   { text: "2022. Boot Up", link: "/example_manual/2000/how_to_use_boot_up" },
+  { text: "2023. Friend Cobot IP", link: "/example_manual/2000/how_to_use_friend_cobot_ip" },
 
   // 3000
   { text: "3001. Imaginary Conveyor", link: "/example_manual/3000/how_to_use_imaginary_conveyor" },
