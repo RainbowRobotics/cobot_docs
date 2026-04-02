@@ -777,7 +777,7 @@ error message below is returned.
          <td>32</td>
          <td>Tool digital output 0~1</td>
          <td>O</td>
-         <td>O</td>
+         <td>X</td>
          <td>[TTxx xxxx xxxx xxxx]</td>
       </tr>
       <tr>
