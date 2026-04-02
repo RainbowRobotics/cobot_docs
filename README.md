@@ -43,3 +43,21 @@ $ npm install
 $ npm run docs:dev
 # or npm run docs:dev -- --host 0.0.0.0
 ```
+
+### 4. Build
+
+이미지 파일(.png, .jpg ...)이 잠긴 상태로 빌드가 되면 브라우저엔 엑박으로 나오므로 DocuRay가 설치되어 있다면 **빌드 전 복호화 꼭 확인!!!**
+복호화 확인 완료 후, root directory에서
+```bash
+$ npm run docs:build
+```
+
+### 5. WebPage Update
+
+빌드가 완료 됬다면
+
+1. Github Desktop 실행
+2. rb_cobot_docs repository 열기
+3. 메모 작성 후 commit & push
+4. 약 5분 후 Cobot Web Manual 페이지 접속하여 업데이트 확인
+
