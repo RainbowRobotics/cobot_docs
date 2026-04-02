@@ -3,7 +3,7 @@ const manualSidebarList: object[] = [
     text: "1. 제품 소개",
     collapsed: false,
     items: [
-      { text: "1.1 협동로봇 시스템___", link: "/ko/manual/product_introduction/cobot_system" },
+      { text: "1.1 협동로봇 시스템", link: "/ko/manual/product_introduction/cobot_system" },
       { text: "1.2 시스템 구성", link: "/ko/manual/product_introduction/system_configuration" },
       { text: "1.3 로봇 팔", link: "/ko/manual/product_introduction/robot_arm" },
       { text: "1.4 로봇 컨트롤 박스", link: "/ko/manual/product_introduction/control_box" },
