@@ -53,7 +53,7 @@ $ npm run docs:build
 
 빌드가 완료 됬다면
 
-1. cobot_docs/.vitepress/dist 폴더 내부 전체 복사 (빌드 결과물)
+1. cobot_docs/.vitepress/dist 내부 내용 중 **<span style="color:#ff0000">.git 폴더를 제외한 나머지</span>** 모두 복사 (빌드 결과물)
 2. rb_cobot_docs repository와 연결된 폴더에 붙여넣기
 3. Github Desktop 실행
 4. rb_cobot_docs repository 열기
