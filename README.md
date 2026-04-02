@@ -42,7 +42,7 @@ $ npm run docs:dev
 ### 4. Build
 
 이미지 파일(.png, .jpg ...)이 잠긴 상태로 빌드가 되면 브라우저엔 엑박으로 나오므로 DocuRay가 설치되어 있다면<br>
-**빌드 전 복호화 꼭 확인!!!**<br>
+<b style="color:red">빌드 전 복호화 꼭 확인!!!</b><br>
 <br>
 복호화 확인 완료 후, root directory에서 아래 스크립트 실행
 ```bash
@@ -53,7 +53,7 @@ $ npm run docs:build
 
 빌드가 완료 됬다면
 
-1. cobot_docs/.vitepress/dist 내부 내용 중 **<span style="color:#ff0000">.git 폴더를 제외한 나머지</span>** 모두 복사 (빌드 결과물)
+1. cobot_docs/.vitepress/dist 내부 내용 중 <b style="color:red">.git 폴더를 제외한 나머지</b> 모두 복사 (빌드 결과물)
 2. rb_cobot_docs repository와 연결된 폴더에 붙여넣기
 3. Github Desktop 실행
 4. rb_cobot_docs repository 열기
