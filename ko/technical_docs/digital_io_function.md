@@ -3,7 +3,7 @@ layout: doc
 outline: deep
 ---
 
-# 제어박스 디지털 I/O 특수 기능 v221004
+# 제어박스 디지털 I/O 특수 기능 v2603
 
 ### 1. 제어박스 디지털 입력 기능 정의
 
@@ -157,7 +157,7 @@ R=부가 축 2번을 (-) 방향으로 이동 / F=정지
 
 #### 1.31 H=Safety Speed
 
-로봇 팔의 동작 속도를 안전 속도 범위로 전환합니다.<br>
+로봇 팔의 동작 속도를 안전 속도 범위로 전환합니다. (250mm/s ↓)<br>
 (High State)
 
 #### 1.32 F=User Coord 0 ← TCP frame
@@ -226,6 +226,316 @@ SOS 상태를 초기화 (리셋) 합니다.<br>
 
 SOS 상태를 초기화 (리셋) 합니다.<br>
 (Falling Edge)
+
+#### 1.47 R=Delete Point
+
+티칭한 Point를 삭제합니다.<br>
+(Rising Edge)
+
+#### 1.48 R=Add ARC-On
+
+R=Arc-On 기능을 추가합니다.
+
+#### 1.49 R=Add ARC-Off
+
+R=Arc-Off 기능을 추가합니다. 
+
+#### 1.50 H=Speed 75% / L=0%
+
+H=속도 75% / L=속도 0%
+
+#### 1.51 H=Speed 50% / L=0%
+
+H=속도 50% / L=속도 0%
+
+#### 1.52 H=Speed 25% / L=0%
+
+H=속도 25% / L=속도 0%
+
+#### 1.53 H=Speed 10% / L=0%
+
+H=속도 10% / L=속도 0%
+
+#### 1.54 F=Pause Program
+
+프로그램을 일시정지합니다.<br>
+(Falling Edge)
+
+#### 1.55 H=Block Freedrive Button
+
+H=직접 교시를 차단합니다. 
+
+#### 1.56 L=Block Freedrive Button
+
+L=직접 교시를 차단합니다. 
+
+#### 1.57 Duplex for Safety
+
+이중화 입력 기능을 구현합니다. 두 개의 입력 신호가 모두 High 상태일 때만 반영됩니다.
+
+#### 1.58 F=Stop Program
+
+프로그램을 정지합니다.<br>
+(Falling Edge)
+
+#### 1.59 F=Reset SOS / EMS State
+
+F=SOS 알람을 해제합니다. / 비상정지 스위치와 같이 로봇 팔 전원이 차단됩니다. 
+
+#### 1.60 F=Reset Modbus Server
+
+F=Modbus 서버를 리셋합니다.
+
+#### 1.61 R=Run User Script 0
+
+R=User Script 0번을 실행합니다. 
+
+#### 1.62 R=Run User Script 1
+
+R=User Script 1번을 실행합니다. 
+
+#### 1.63 R=Run User Script 2
+
+R=User Script 2번을 실행합니다. 
+
+#### 1.64 R=Run User Script 3
+
+R=User Script 3번을 실행합니다. 
+
+#### 1.65 R=Run User Script 4
+
+R=User Script 4번을 실행합니다. 
+
+#### 1.66 R=Run User Script 5
+
+R=User Script 5번을 실행합니다. 
+
+#### 1.67 R=Run User Script 6
+
+R=User Script 6번을 실행합니다. 
+
+#### 1.68 R=Run User Script 7
+
+R=User Script 7번을 실행합니다. 
+
+#### 1.69 R=Run User Script 8
+
+R=User Script 8번을 실행합니다. 
+
+#### 1.70 R=Run User Script 9
+
+R=User Script 9번을 실행합니다. 
+
+#### 1.71 H=Ignore Self Collision
+
+H=자가 충돌을 무시합니다.  
+
+#### 1.72 H=Conditional Script Exe Key
+
+H=User Script에 할당되어진 기능을 실행합니다.  
+
+#### 1.73 R=Speed 50% / F=100%
+
+R=속도 50% / F=속도 100%
+
+#### 1.74 R=Speed 25% / F=100%
+
+R=속도 25% / F=속도 100%
+
+#### 1.75 H=Speed 100% / L=75%
+
+H=속도 100% / L=속도 75%
+
+#### 1.76 H=Speed 100% / L=50%
+
+H=속도 100% / L=속도 50%
+
+#### 1.77 H=Speed 100% / L=25%
+
+H=속도 100% / L=속도 25%
+
+#### 1.78 R=Reset UI Connection
+
+R=제어박스와 현재 사용 중인 태블릿의 RB UI 연결을 해제합니다.
+
+#### 1.79 H=Block SSS Function
+
+H=SSS 키 해제 시 발생하는 알람을 SSS 키를 쇼트 상태로 설정하여 방지합니다.
+
+#### 1.80 H=Auto SSS Resume Key
+
+H=SSS 키가 해제되어 일시정지 되는 기능을 재시작합니다.<br> (이 때 SSS는 다시 쇼트상태여야 합니다.)
+
+#### 1.81 R=Robot Arm PowerDown
+
+R=로봇 전원을 차단합니다. 
+
+#### 1.82 H=Block D.In Special Functions
+
+H=할달된 포트보다 낮은 번호의 Digital 포트에서는 Digital Input 특수 기능이 비활성화됩니다.<br>
+(해당 기능을 DI 8에 할당할 경우, DI 0~7에 설정된 기능은 비활성화 됩니다.)
+
+#### 1.83 L=Block D.In Special Functions
+
+L=할달된 포트보다 낮은 번호의 Digital 포트에서는 Digital Input 특수 기능이 비활성화됩니다.<br>
+(해당 기능을 DI 8에 할당할 경우, DI 0~7에 설정된 기능은 비활성화 됩니다.)
+
+#### 1.84 R=Global Speed Bar +
+
+R=속도 조절바가 10%씩 증가합니다.
+
+#### 1.85 R=Global Speed Bar -
+
+R=속도 조절바가 10%씩 감소합니다.
+
+#### 1.86 R=Robot Jog Joint 0 +
+
+R=Joint Jog 0번 관절이 +방향으로 이동합니다. 
+
+#### 1.87 R=Robot Jog Joint 0 -
+
+R=Joint Jog 0번 관절이 -방향으로 이동합니다. 
+
+#### 1.88 R=Robot Jog Joint 1 +
+
+R=Joint Jog 1번 관절이 +방향으로 이동합니다. 
+
+#### 1.89 R=Robot Jog Joint 1 -
+
+R=Joint Jog 1번 관절이 -방향으로 이동합니다. 
+
+#### 1.90 R=Robot Jog Joint 2 +
+
+R=Joint Jog 2번 관절이 +방향으로 이동합니다. 
+
+#### 1.91 R=Robot Jog Joint 2 -
+
+R=Joint Jog 2번 관절이 -방향으로 이동합니다. 
+
+#### 1.92 R=Robot Jog Joint 3 +
+
+R=Joint Jog 3번 관절이 +방향으로 이동합니다. 
+
+#### 1.93 R=Robot Jog Joint 3 -
+
+R=Joint Jog 3번 관절이 -방향으로 이동합니다. 
+
+#### 1.94 R=Robot Jog Joint 4 +
+
+R=Joint Jog 4번 관절이 +방향으로 이동합니다. 
+
+#### 1.95 R=Robot Jog Joint 4 -
+
+R=Joint Jog 4번 관절이 -방향으로 이동합니다. 
+
+#### 1.96 R=Robot Jog Joint 5 +
+
+R=Joint Jog 5번 관절이 +방향으로 이동합니다.
+
+#### 1.97 R=Robot Jog Joint 5 -
+
+R=Joint Jog 5번 관절이 -방향으로 이동합니다.
+
+#### 1.98 R=Robot Jog Global X +
+
+R=Global 좌표계 X + 방향으로 이동합니다. 
+
+#### 1.99 R=Robot Jog Global X -
+
+R=Global 좌표계 X - 방향으로 이동합니다. 
+
+#### 1.100 R=Robot Jog Global Y +
+
+R=Global 좌표계 Y + 방향으로 이동합니다. 
+
+#### 1.101 R=Robot Jog Global Y -
+
+R=Global 좌표계 Y - 방향으로 이동합니다. 
+
+#### 1.102 R=Robot Jog Global Z +
+
+R=Global 좌표계 Z + 방향으로 이동합니다. 
+
+#### 1.103 R=Robot Jog Global Z -
+
+R=Global 좌표계 Z - 방향으로 이동합니다. 
+
+#### 1.104 R=Robot Jog Global RX +
+
+R=Global 좌표계 RX + 방향으로 이동합니다. 
+
+#### 1.105 R=Robot Jog Global RX -
+
+R=Global 좌표계 RX - 방향으로 이동합니다. 
+
+#### 1.106 R=Robot Jog Global RY +
+
+R=Global 좌표계 RY + 방향으로 이동합니다. 
+
+#### 1.107 R=Robot Jog Global RY -
+
+R=Global 좌표계 RY - 방향으로 이동합니다. 
+
+#### 1.108 R=Robot Jog Global RZ +
+
+R=Global 좌표계 RZ + 방향으로 이동합니다. 
+
+#### 1.109 R=Robot Jog Global RZ -
+
+R=Global 좌표계 RZ - 방향으로 이동합니다. 
+
+#### 1.110 R=Robot Jog Local X +
+
+R=Local 좌표계 X + 방향으로 이동합니다. 
+
+#### 1.111 R=Robot Jog Local X -
+
+R=Local 좌표계 X - 방향으로 이동합니다. 
+
+#### 1.112 R=Robot Jog Local Y +
+
+R=Local 좌표계 Y + 방향으로 이동합니다. 
+
+#### 1.113 R=Robot Jog Local Y -
+
+R=Local 좌표계 Y - 방향으로 이동합니다. 
+
+#### 1.114 R=Robot Jog Local Z +
+
+R=Local 좌표계 Z + 방향으로 이동합니다. 
+
+#### 1.115 R=Robot Jog Local Z -
+
+R=Local 좌표계 Z - 방향으로 이동합니다.
+
+#### 1.116 R=Robot Jog Local RX +
+
+R=Local 좌표계 RX + 방향으로 이동합니다.
+
+#### 1.117 R=Robot Jog Local RX -
+
+R=Local 좌표계 RX - 방향으로 이동합니다.
+
+#### 1.118 R=Robot Jog Local RY +
+
+R=Local 좌표계 RY + 방향으로 이동합니다.
+
+#### 1.119 R=Robot Jog Local RY -
+
+R=Local 좌표계 RY - 방향으로 이동합니다.
+
+#### 1.120 R=Robot Jog Local RZ +
+
+R=Local 좌표계 RZ + 방향으로 이동합니다.
+
+#### 1.121 R=Robot Jog Local RZ -
+
+R=Local 좌표계 RZ - 방향으로 이동합니다.
+
+#### 1.122 R=Stop Program & Speed 0%
+
+R=프로그램을 정지하고 속도를 0%로 설정합니다. 
+
 
 ### 2. 제어박스 디지털 출력 기능 정의
 
@@ -444,3 +754,59 @@ SOS 상태를 나타냅니다.<br>
 
 SOS 상태를 나타냅니다.<br>
 (Low state)
+
+#### 2.45 H=EMG Button Released / L=Pressed
+
+비상스위치가 해제되어 있을 때 High 상태로 출력됩니다. 
+
+#### 2.46 L=EMG Button Released / H=Pressed
+
+비상스위치가 해제되어 있을 때 Low 상태가 됩니다. 
+
+#### 2.47 L=Robot Speed under 250mm/s
+
+로봇 팔의 속도가 250mm/s를 넘지 않으면 Low 상태가 됩니다.  
+
+#### 2.48 H=Robot Speed under 250mm/s
+
+로봇 팔의 속도가 250mm/s 넘지 않으면 High 상태로 출력됩니다. 
+
+#### 2.49 H=Near Joint Limit
+
+로봇 팔의 위치가 특이점에 도달하면 High 상태로 출력됩니다. 
+
+#### 2.50 H=Robot Arm under Activationg
+
+로봇 팔의 전원이 인가되고 있다면 High 상태가 출력됩니다. 
+
+#### 2.51 H=Under program Loading
+
+프로그램 로딩 상태를 나타냅니다. 
+
+#### 2.52 H=TeleOperation Master
+
+TeleOperation Master 상태를 나타냅니다. 
+
+#### 2.53 H=TeleOperation Slave
+
+TeleOperation Slave 상태를 나타냅니다. 
+
+#### 2.54 H=Servo Mode & Idle
+
+Servo Mode 상태를 나타냅니다. 
+
+#### 2.55 H=Safety EMS2 Pressed
+
+EMS2 배선이 쇼트 상태가 아닐 경우 High가 출력됩니다. 
+
+#### 2.56 H=Safety PRS Pressed
+
+PRS 배선이 쇼트 상태가 아닐 경우 High가 출력됩니다. 
+
+#### 2.57 H=Safety HSS Pressed
+
+HSS 배선이 쇼트 상태가 아닐 경우 High가 출력됩니다. 
+
+#### 2.58 H=Safety SSS Pressed
+
+SSS 배선이 쇼트 상태가 아닐 경우 High가 출력됩니다. 

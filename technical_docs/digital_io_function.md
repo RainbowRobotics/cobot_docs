@@ -227,6 +227,317 @@ Initialize (reset) the SOS state.<br>
 Initialize (reset) the SOS state.<br>
 (Falling Edge)
 
+#### 1.47 R=Delete Point
+
+Deletes the taught point.<br>
+(Rising Edge)
+
+#### 1.48 R=Add ARC-On
+
+Adds the Arc-On function.
+
+#### 1.49 R=Add ARC-Off
+
+Adds the Arc-Off function.
+
+#### 1.50 H=Speed 75% / L=0%
+
+H = Speed 75% / L = Speed 0%
+
+#### 1.51 H=Speed 50% / L=0%
+
+H = Speed 50% / L = Speed 0%
+
+#### 1.52 H=Speed 25% / L=0%
+
+H = Speed 25% / L = Speed 0%
+
+#### 1.53 H=Speed 10% / L=0%
+
+H = Speed 10% / L = Speed 0%
+
+#### 1.54 F=Pause Program
+
+Pauses the program.<br>
+(Falling Edge)
+
+#### 1.55 H=Block Freedrive Button
+
+Blocks direct teaching when High.
+
+#### 1.56 L=Block Freedrive Button
+
+Blocks direct teaching when Low.
+
+#### 1.57 Duplex for Safety
+
+Implements a redundant input function. The input is recognized only when both input signals are High.
+
+#### 1.58 F=Stop Program
+
+Stops the program.<br>
+(Falling Edge)
+
+#### 1.59 F=Reset SOS / EMS State
+
+Resets the SOS alarm. <br> The robot arm power is cut off, the same as when the emergency stop switch is activated.
+
+#### 1.60 F=Reset Modbus Server
+
+Resets the Modbus server.
+
+#### 1.61 R=Run User Script 0
+
+Executes User Script 0.
+
+#### 1.62 R=Run User Script 1
+
+Executes User Script 1.
+
+#### 1.63 R=Run User Script 2
+
+Executes User Script 2.
+
+#### 1.64 R=Run User Script 3
+
+Executes User Script 3.
+
+#### 1.65 R=Run User Script 4
+
+Executes User Script 4.
+
+#### 1.66 R=Run User Script 5
+
+Executes User Script 5.
+
+#### 1.67 R=Run User Script 6
+
+Executes User Script 6.
+
+#### 1.68 R=Run User Script 7
+
+Executes User Script 7.
+
+#### 1.69 R=Run User Script 8
+
+Executes User Script 8.
+
+#### 1.70 R=Run User Script 9
+
+Executes User Script 9.
+
+#### 1.71 H=Ignore Self Collision
+
+Ignores self-collision when High.
+
+#### 1.72 H=Conditional Script Exe Key
+
+Executes the function assigned to the User Script when High.
+
+#### 1.73 R=Speed 50% / F=100%
+
+R = Speed 50% / F = Speed 100%
+
+#### 1.74 R=Speed 25% / F=100%
+
+R = Speed 25% / F = Speed 100%
+
+#### 1.75 H=Speed 100% / L=75%
+
+H = Speed 100% / L = Speed 75%
+
+#### 1.76 H=Speed 100% / L=50%
+
+H = Speed 100% / L = Speed 50%
+
+#### 1.77 H=Speed 100% / L=25%
+
+H = Speed 100% / L = Speed 25%
+
+#### 1.78 R=Reset UI Connection
+
+Disconnects the RB UI connection between the control box and the currently connected tablet.
+
+#### 1.79 H=Block SSS Function
+
+Prevents the alarm generated when the SSS key is released by setting the SSS key to the shorted state.
+
+#### 1.80 H=Auto SSS Resume Key
+
+Restarts the function that was paused when the SSS key was released.<br>
+(In this case, the SSS must be shorted again.)
+
+#### 1.81 R=Robot Arm PowerDown
+
+Turns off the robot power.
+
+#### 1.82 H=Block D.In Special Functions
+
+Disables Digital Input special functions on Digital ports with lower numbers than the assigned port when High.<br>
+(If this function is assigned to DI 8, the functions assigned to DI 0 to 7 are disabled.)
+
+#### 1.83 L=Block D.In Special Functions
+
+Disables Digital Input special functions on Digital ports with lower numbers than the assigned port when Low.<br>
+(If this function is assigned to DI 8, the functions assigned to DI 0 to 7 are disabled.)
+
+#### 1.84 R=Global Speed Bar +
+
+Increases the speed control bar by 10%.
+
+#### 1.85 R=Global Speed Bar -
+
+Decreases the speed control bar by 10%.
+
+#### 1.86 R=Robot Jog Joint 0 +
+
+Moves Joint 0 in the positive direction.
+
+#### 1.87 R=Robot Jog Joint 0 -
+
+Moves Joint 0 in the negative direction.
+
+#### 1.88 R=Robot Jog Joint 1 +
+
+Moves Joint 1 in the positive direction.
+
+#### 1.89 R=Robot Jog Joint 1 -
+
+Moves Joint 1 in the negative direction.
+
+#### 1.90 R=Robot Jog Joint 2 +
+
+Moves Joint 2 in the positive direction.
+
+#### 1.91 R=Robot Jog Joint 2 -
+
+Moves Joint 2 in the negative direction.
+
+#### 1.92 R=Robot Jog Joint 3 +
+
+Moves Joint 3 in the positive direction.
+
+#### 1.93 R=Robot Jog Joint 3 -
+
+Moves Joint 3 in the negative direction.
+
+#### 1.94 R=Robot Jog Joint 4 +
+
+Moves Joint 4 in the positive direction.
+
+#### 1.95 R=Robot Jog Joint 4 -
+
+Moves Joint 4 in the negative direction.
+
+#### 1.96 R=Robot Jog Joint 5 +
+
+Moves Joint 5 in the positive direction.
+
+#### 1.97 R=Robot Jog Joint 5 -
+
+Moves Joint 5 in the negative direction.
+
+#### 1.98 R=Robot Jog Global X +
+
+Moves in the positive X direction in the Global coordinate system.
+
+#### 1.99 R=Robot Jog Global X -
+
+Moves in the negative X direction in the Global coordinate system.
+
+#### 1.100 R=Robot Jog Global Y +
+
+Moves in the positive Y direction in the Global coordinate system.
+
+#### 1.101 R=Robot Jog Global Y -
+
+Moves in the negative Y direction in the Global coordinate system.
+
+#### 1.102 R=Robot Jog Global Z +
+
+Moves in the positive Z direction in the Global coordinate system.
+
+#### 1.103 R=Robot Jog Global Z -
+
+Moves in the negative Z direction in the Global coordinate system.
+
+#### 1.104 R=Robot Jog Global RX +
+
+Moves in the positive RX direction in the Global coordinate system.
+
+#### 1.105 R=Robot Jog Global RX -
+
+Moves in the negative RX direction in the Global coordinate system.
+
+#### 1.106 R=Robot Jog Global RY +
+
+Moves in the positive RY direction in the Global coordinate system.
+
+#### 1.107 R=Robot Jog Global RY -
+
+Moves in the negative RY direction in the Global coordinate system.
+
+#### 1.108 R=Robot Jog Global RZ +
+
+Moves in the positive RZ direction in the Global coordinate system.
+
+#### 1.109 R=Robot Jog Global RZ -
+
+Moves in the negative RZ direction in the Global coordinate system.
+
+#### 1.110 R=Robot Jog Local X +
+
+Moves in the positive X direction in the Local coordinate system.
+
+#### 1.111 R=Robot Jog Local X -
+
+Moves in the negative X direction in the Local coordinate system.
+
+#### 1.112 R=Robot Jog Local Y +
+
+Moves in the positive Y direction in the Local coordinate system.
+
+#### 1.113 R=Robot Jog Local Y -
+
+Moves in the negative Y direction in the Local coordinate system.
+
+#### 1.114 R=Robot Jog Local Z +
+
+Moves in the positive Z direction in the Local coordinate system.
+
+#### 1.115 R=Robot Jog Local Z -
+
+Moves in the negative Z direction in the Local coordinate system.
+
+#### 1.116 R=Robot Jog Local RX +
+
+Moves in the positive RX direction in the Local coordinate system.
+
+#### 1.117 R=Robot Jog Local RX -
+
+Moves in the negative RX direction in the Local coordinate system.
+
+#### 1.118 R=Robot Jog Local RY +
+
+Moves in the positive RY direction in the Local coordinate system.
+
+#### 1.119 R=Robot Jog Local RY -
+
+Moves in the negative RY direction in the Local coordinate system.
+
+#### 1.120 R=Robot Jog Local RZ +
+
+Moves in the positive RZ direction in the Local coordinate system.
+
+#### 1.121 R=Robot Jog Local RZ -
+
+Moves in the negative RZ direction in the Local coordinate system.
+
+#### 1.122 R=Stop Program & Speed 0%
+
+Stops the program and sets the speed to 0%.
+
+
 ### 2. Control Box Digital Output Function Definition
 
 <br>
@@ -444,3 +755,59 @@ Indicates the SOS status.<br>
 
 Indicates the SOS status.<br>
 (Low state)
+
+#### 2.45 H=EMG Button Released / L=Pressed
+
+Outputs High when the emergency switch is released.
+
+#### 2.46 L=EMG Button Released / H=Pressed
+
+Outputs Low when the emergency switch is released.
+
+#### 2.47 L=Robot Speed under 250mm/s
+
+Outputs Low when the robot arm speed is below 250 mm/s.
+
+#### 2.48 H=Robot Speed under 250mm/s
+
+Outputs High when the robot arm speed is below 250 mm/s.
+
+#### 2.49 H=Near Joint Limit
+
+Outputs High when the robot arm reaches a singularity.
+
+#### 2.50 H=Robot Arm under Activationg
+
+Outputs High when the robot arm power is being supplied.
+
+#### 2.51 H=Under program Loading
+
+Indicates the program loading state.
+
+#### 2.52 H=TeleOperation Master
+
+Indicates TeleOperation Master state.
+
+#### 2.53 H=TeleOperation Slave
+
+Indicates TeleOperation Slave state.
+
+#### 2.54 H=Servo Mode & Idle
+
+Indicates Servo Mode (Idle state).
+
+#### 2.55 H=Safety EMS2 Pressed
+
+Outputs High when the EMS2 wiring is not in a shorted state.
+
+#### 2.56 H=Safety PRS Pressed
+
+Outputs High when the PRS wiring is not in a shorted state.
+
+#### 2.57 H=Safety HSS Pressed
+
+Outputs High when the HSS wiring is not in a shorted state.
+
+#### 2.58 H=Safety SSS Pressed
+
+Outputs High when the SSS wiring is not in a shorted state.
